@@ -10,7 +10,10 @@ export default defineNuxtConfig({
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         { name: 'description', content: '記憶像水一樣流動  我們可以選擇如何記憶' },
         // Open Graph
-        { property: 'og:title', content: 'From Island To Island' },
+        {
+          property: 'og:title',
+          content: '由島至島——記憶與對話\nFrom Island to Island: Memory and Dialogue',
+        },
         { property: 'og:description', content: '記憶像水一樣流動  我們可以選擇如何記憶' },
         {
           property: 'og:image',
