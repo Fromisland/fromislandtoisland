@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   ssr: false,
   app: {
-    baseURL: '/fromislandtoisland/', // GitHub repository name
+    baseURL: '/', // GitHub repository name
     head: {
       title: '由島至島——記憶與對話\nFrom Island to Island: Memory and Dialogue',
       meta: [
