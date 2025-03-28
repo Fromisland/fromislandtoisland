@@ -1,0 +1,30 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "dependencies": {
+    "@nuxtjs/tailwindcss": "^6.13.1",
+    "gsap": "^3.12.7",
+    "jquery": "^3.7.1",
+    "jquery.ripples": "^0.6.3",
+    "lite-youtube-embed": "^0.3.3",
+    "nuxt": "^3.15.2",
+    "vue": "latest",
+    "vue-router": "latest"
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.5.32",
+    "imagemin": "^9.0.0",
+    "imagemin-webp": "^8.0.0",
+    "prettier": "^3.4.2"
+  }
+}
