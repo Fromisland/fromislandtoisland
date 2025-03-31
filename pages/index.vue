@@ -520,17 +520,17 @@
               記憶與對話
             </p>
             <p
-              class="font-amiri italic text-xl sm:text-[25px] text-white tracking-[1px] sm:tracking-[3px] mt-7"
+              class="font-amiri italic text-xl sm:text-[25px] text-white tracking-[1px] sm:tracking-[1.5px] mt-7"
             >
               From Island
             </p>
             <p
-              class="font-amiri italic text-xl sm:text-[25px] text-white tracking-[1px] sm:tracking-[3px]"
+              class="font-amiri italic text-xl sm:text-[25px] text-white tracking-[1px] sm:tracking-[1.5px]"
             >
               to Island
             </p>
             <p
-              class="font-amiri italic text-xl sm:text-[25px] text-white tracking-[1px] sm:tracking-[3px]"
+              class="font-amiri italic text-xl sm:text-[25px] text-white tracking-[1px] sm:tracking-[1.5px]"
             >
               Memory and Dialogue
             </p>

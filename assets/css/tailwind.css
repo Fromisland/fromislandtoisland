@@ -27,5 +27,12 @@
 }
 
 @tailwind base;
+
+/* Global font smoothing */
+.font-amiri {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 @tailwind components;
 @tailwind utilities;
