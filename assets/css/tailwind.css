@@ -29,13 +29,23 @@
 @tailwind base;
 
 /* Global font smoothing */
-.font-amiri {
+.font-amiri,
+.font-noto,
+.font-roboto,
+.font-wix,
+.font-shippori {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 .blur {
   filter: blur(1.5px) !important;
+}
+
+@media (max-width: 767px) {
+  .blur {
+    filter: blur(0.5px) !important;
+  }
 }
 
 @tailwind components;

@@ -100,20 +100,18 @@
         />
         <div class="flex sm:hidden flex-col items-center h-full justify-center mt-5">
           <div class="font-noto font-semibold text-[20px] text-white tracking-[2px]">鄭政誠</div>
-          <div
-            class="font-noto text-[14px] font-light text-white tracking-[2px] text-center leading-[30px]"
-          >
+          <div class="font-noto text-[14px] text-white tracking-[2px] text-center leading-[30px]">
             國立中央大學歷史研究所特聘教授
           </div>
-          <p class="font-noto text-white font-light text-[13px] tracking-[2px] opacity-60 mt-6">
+          <p class="font-noto text-white text-[13px] tracking-[2px] opacity-60 mt-6">
             台北欣欣秀泰影城（2024.10.27）
           </p>
         </div>
         <div class="hidden sm:flex flex-col h-full justify-center">
           <div class="font-noto font-semibold text-[20px] text-white tracking-[2px]">
-            鄭政誠<span class="text-[14px] font-light">／國立中央大學歷史研究所特聘教授</span>
+            鄭政誠<span class="text-[14px]">／國立中央大學歷史研究所特聘教授</span>
           </div>
-          <p class="font-noto text-white font-light text-[13px] tracking-[2px] opacity-60 mt-2">
+          <p class="font-noto text-white text-[13px] tracking-[2px] opacity-60 mt-2">
             桃園光影文化館（2024.10.6）
           </p>
         </div>

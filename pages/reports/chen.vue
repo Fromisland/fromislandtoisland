@@ -100,20 +100,18 @@
         />
         <div class="flex sm:hidden flex-col items-center h-full justify-center mt-5">
           <div class="font-noto font-semibold text-[20px] text-white tracking-[2px]">陳柏棕</div>
-          <div
-            class="font-noto text-[14px] font-light text-white tracking-[2px] text-center leading-[30px]"
-          >
+          <div class="font-noto text-[14px] text-white tracking-[2px] text-center leading-[30px]">
             國家鐵道博物館籌備處助理研究員
           </div>
-          <p class="font-noto text-white font-light text-[13px] tracking-[2px] opacity-60 mt-6">
+          <p class="font-noto text-white text-[13px] tracking-[2px] opacity-60 mt-6">
             台北欣欣秀泰影城（2024.10.27）
           </p>
         </div>
         <div class="hidden sm:flex flex-col h-full justify-center">
           <div class="font-noto font-semibold text-[20px] text-white tracking-[2px]">
-            陳柏棕<span class="text-[14px] font-light">／國家鐵道博物館籌備處助理研究員</span>
+            陳柏棕<span class="text-[14px]">／國家鐵道博物館籌備處助理研究員</span>
           </div>
-          <p class="font-noto text-white font-light text-[13px] tracking-[2px] opacity-60 mt-2">
+          <p class="font-noto text-white text-[13px] tracking-[2px] opacity-60 mt-2">
             新竹百老匯影城（2024.10.26）
           </p>
         </div>

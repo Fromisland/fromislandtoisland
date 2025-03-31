@@ -107,31 +107,27 @@
         </div>
         <div class="relative flex sm:hidden flex-col items-center h-full justify-center mt-5">
           <div class="font-noto font-semibold text-[20px] text-white tracking-[2px]">郭力昕</div>
-          <div
-            class="font-noto text-[14px] font-light text-white tracking-[2px] text-center leading-[30px]"
-          >
+          <div class="font-noto text-[14px] text-white tracking-[2px] text-center leading-[30px]">
             影像文化評論者
           </div>
           <div class="font-noto font-semibold text-[20px] text-white tracking-[2px] mt-4">
             鍾適芳
           </div>
-          <div
-            class="font-noto text-[14px] font-light text-white tracking-[2px] text-center leading-[30px]"
-          >
+          <div class="font-noto text-[14px] text-white tracking-[2px] text-center leading-[30px]">
             音樂與影像展演製作人／策展人
           </div>
-          <p class="font-noto text-white font-light text-[13px] tracking-[2px] opacity-60 mt-6">
+          <p class="font-noto text-white text-[13px] tracking-[2px] opacity-60 mt-6">
             屏東中影影城（2024.11.17）
           </p>
         </div>
         <div class="hidden sm:flex flex-col h-full justify-center gap-y-2">
           <div class="font-noto font-semibold text-[20px] text-white tracking-[2px]">
-            郭力昕<span class="text-[14px] font-light">／影像文化評論者</span>
+            郭力昕<span class="text-[14px]">／影像文化評論者</span>
           </div>
           <div class="font-noto font-semibold text-[20px] text-white tracking-[2px]">
-            鍾適芳<span class="text-[14px] font-light">／音樂與影像展演製作人／策展人</span>
+            鍾適芳<span class="text-[14px]">／音樂與影像展演製作人／策展人</span>
           </div>
-          <p class="font-noto text-white font-light text-[13px] tracking-[2px] opacity-60">
+          <p class="font-noto text-white text-[13px] tracking-[2px] opacity-60">
             屏東中影影城（2024.11.17）
           </p>
         </div>

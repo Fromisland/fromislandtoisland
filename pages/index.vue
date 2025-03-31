@@ -510,12 +510,12 @@
             class="title-text-section flex flex-col absolute top-[480px] sm:top-[447px] left-[60px] sm:left-[162px]"
           >
             <p
-              class="font-shippori text-white text-[32px] sm:text-[50px] font-light tracking-[8px] sm:tracking-[12px]"
+              class="font-shippori text-white text-[32px] sm:text-[50px] tracking-[8px] sm:tracking-[10px]"
             >
               由島至島
             </p>
             <p
-              class="font-shippori text-white text-[32px] sm:text-[50px] font-light tracking-[8px] sm:tracking-[12px]"
+              class="font-shippori text-white text-[32px] sm:text-[50px] tracking-[8px] sm:tracking-[10px]"
             >
               記憶與對話
             </p>
@@ -604,22 +604,22 @@
       </div>
       <div class="flex flex-col w-full min-h-[70vh] items-center justify-center still relative">
         <p
-          class="font-shippori text-white text-[17px] sm:text-[22px] tracking-[5px] sm:tracking-[8px] mt-[250px] sm:mt-20"
+          class="font-shippori text-white text-[17px] sm:text-[22px] tracking-[5px] sm:tracking-[6px] mt-[250px] sm:mt-20"
         >
           記憶像水一樣流動
         </p>
         <p
-          class="font-shippori text-white text-[17px] sm:text-[22px] tracking-[5px] sm:tracking-[8px] mt-12"
+          class="font-shippori text-white text-[17px] sm:text-[22px] tracking-[5px] sm:tracking-[6px] mt-12"
         >
           我們可以選擇如何記憶
         </p>
         <p
-          class="font-shippori text-white text-[17px] sm:text-[22px] tracking-[5px] sm:tracking-[8px] mt-12"
+          class="font-shippori text-white text-[17px] sm:text-[22px] tracking-[5px] sm:tracking-[6px] mt-12"
         >
           也是在重塑我們
         </p>
         <p
-          class="font-shippori text-white text-[17px] sm:text-[22px] tracking-[5px] sm:tracking-[8px] mt-12"
+          class="font-shippori text-white text-[17px] sm:text-[22px] tracking-[5px] sm:tracking-[6px] mt-12"
         >
           作為人的意義
         </p>
@@ -640,7 +640,7 @@
       <div class="flex flex-col gap-y-6 sm:gap-y-14 items-center sm:items-start filmText">
         <div class="flex flex-col items-center sm:items-start">
           <p class="font-amiri italic text-white tracking-[6px] text-lg sm:text-[28px]">FILM</p>
-          <p class="font-shippori text-white text-[36px] sm:text-[44px] tracking-[8px]">由島至島</p>
+          <p class="font-shippori text-white text-[36px] sm:text-[44px] tracking-[6px]">由島至島</p>
         </div>
         <p
           class="hidden sm:flex font-noto text-white tracking-[2px] w-full sm:w-[412px] leading-[36px] text-sm sm:text-[16px]"

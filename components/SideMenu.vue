@@ -24,12 +24,12 @@
           <div class="flex flex-col items-start space-y-6 w-1/2 ml-8">
             <NuxtLink
               to="/film"
-              class="font-noto text-[15px] sm:text-[17px] tracking-[3px] font-light hover:opacity-50"
+              class="font-noto text-[15px] sm:text-[17px] tracking-[3px] hover:opacity-50"
               >電影介紹</NuxtLink
             >
             <NuxtLink
               to="/reports"
-              class="font-noto text-[15px] sm:text-[17px] tracking-[3px] font-light hover:opacity-50"
+              class="font-noto text-[15px] sm:text-[17px] tracking-[3px] hover:opacity-50"
               >座談與報導</NuxtLink
             >
           </div>
@@ -48,32 +48,32 @@
           <div class="flex flex-col items-start space-y-6 w-1/2 ml-8">
             <NuxtLink
               to="/lesson"
-              class="font-noto text-[15px] sm:text-[17px] tracking-[3px] font-light hover:opacity-50"
+              class="font-noto text-[15px] sm:text-[17px] tracking-[3px] hover:opacity-50"
               >教案介紹</NuxtLink
             >
             <NuxtLink
               to="/lesson/one"
-              class="font-noto text-[15px] sm:text-[17px] tracking-[3px] font-light hover:opacity-50"
+              class="font-noto text-[15px] sm:text-[17px] tracking-[3px] hover:opacity-50"
               >移動與邊界</NuxtLink
             >
             <NuxtLink
               to="/lesson/two"
-              class="font-noto text-[15px] sm:text-[17px] tracking-[3px] font-light hover:opacity-50"
+              class="font-noto text-[15px] sm:text-[17px] tracking-[3px] hover:opacity-50"
               >加害與被害</NuxtLink
             >
             <NuxtLink
               to="/lesson/three"
-              class="font-noto text-[15px] sm:text-[17px] tracking-[3px] font-light hover:opacity-50"
+              class="font-noto text-[15px] sm:text-[17px] tracking-[3px] hover:opacity-50"
               >共犯結構</NuxtLink
             >
             <NuxtLink
               to="/lesson/four"
-              class="font-noto text-[15px] sm:text-[17px] tracking-[3px] font-light hover:opacity-50"
+              class="font-noto text-[15px] sm:text-[17px] tracking-[3px] hover:opacity-50"
               >克服過去</NuxtLink
             >
             <NuxtLink
               to="/lesson/five"
-              class="font-noto text-[15px] sm:text-[17px] tracking-[3px] font-light hover:opacity-50"
+              class="font-noto text-[15px] sm:text-[17px] tracking-[3px] hover:opacity-50"
               >為什麼要記憶</NuxtLink
             >
           </div>
@@ -92,17 +92,17 @@
           <div class="flex flex-col items-start space-y-6 w-1/2 ml-8">
             <NuxtLink
               to="/educational"
-              class="font-noto text-[15px] sm:text-[17px] tracking-[3px] font-light hover:opacity-50"
+              class="font-noto text-[15px] sm:text-[17px] tracking-[3px] hover:opacity-50"
               >教育公播</NuxtLink
             >
             <NuxtLink
               to="/booking"
-              class="font-noto text-[15px] sm:text-[17px] tracking-[3px] font-light hover:opacity-50"
+              class="font-noto text-[15px] sm:text-[17px] tracking-[3px] hover:opacity-50"
               >包場資訊</NuxtLink
             >
             <NuxtLink
               to="/contact"
-              class="font-noto text-[15px] sm:text-[17px] tracking-[3px] font-light hover:opacity-50"
+              class="font-noto text-[15px] sm:text-[17px] tracking-[3px] hover:opacity-50"
               >聯絡我們</NuxtLink
             >
           </div>

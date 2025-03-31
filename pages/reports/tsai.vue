@@ -100,22 +100,18 @@
         />
         <div class="flex sm:hidden flex-col items-center h-full justify-center mt-5">
           <div class="font-noto font-semibold text-[20px] text-white tracking-[2px]">蔡崇隆</div>
-          <div
-            class="font-noto text-[14px] font-light text-white tracking-[2px] text-center leading-[30px]"
-          >
+          <div class="font-noto text-[14px] text-white tracking-[2px] text-center leading-[30px]">
             國立中正大學傳播學系副教授、<br />《九槍》導演
           </div>
-          <p class="font-noto text-white font-light text-[13px] tracking-[2px] opacity-60 mt-6">
+          <p class="font-noto text-white text-[13px] tracking-[2px] opacity-60 mt-6">
             嘉義 in89 影城（2024.11.30）
           </p>
         </div>
         <div class="hidden sm:flex flex-col h-full justify-center">
           <div class="font-noto font-semibold text-[20px] text-white tracking-[2px]">
-            蔡崇隆<span class="text-[14px] font-light"
-              >／國立中正大學傳播學系副教授、《九槍》導演</span
-            >
+            蔡崇隆<span class="text-[14px]">／國立中正大學傳播學系副教授、《九槍》導演</span>
           </div>
-          <p class="font-noto text-white font-light text-[13px] tracking-[2px] opacity-60 mt-2">
+          <p class="font-noto text-white text-[13px] tracking-[2px] opacity-60 mt-2">
             嘉義 in89 影城（2024.11.30）
           </p>
         </div>
