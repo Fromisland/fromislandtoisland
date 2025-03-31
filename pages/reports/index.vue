@@ -104,7 +104,7 @@
         class="flex w-full sm:px-[184px] sm:pt-[233px] justify-center sm:justify-start items-end mt-10"
       >
         <div class="flex flex-col items-center sm:items-start">
-          <p class="font-amiri italic text-white tracking-[0.5px] text-xl sm:text-[28px]">
+          <p class="font-amiri italic text-white tracking-[1px] text-xl sm:text-[28px]">
             Discussion & Reports
           </p>
           <p class="font-shippori text-white text-[30px] sm:text-[44px] tracking-[8px]">

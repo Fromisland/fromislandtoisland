@@ -63,7 +63,7 @@
           </div>
           <p class="font-shippori text-[#999] text-[30px] tracking-[10px] -mt-12">為什麼要記憶—</p>
           <p class="font-shippori text-[#999] text-[30px] tracking-[10px]">慰安婦</p>
-          <p class="font-amiri italic text-[#999] text-[20px] tracking-[0.5px] leading-[38px] mt-7">
+          <p class="font-amiri italic text-[#999] text-[20px] tracking-[1px] leading-[38px] mt-7">
             Why should we remember:<br />
             Comfort Women
           </p>

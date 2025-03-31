@@ -63,7 +63,7 @@
           </div>
           <p class="font-shippori text-[#999] text-[30px] tracking-[10px] -mt-12">克服過去—</p>
           <p class="font-shippori text-[#999] text-[30px] tracking-[10px]">日本和平教育團</p>
-          <p class="font-amiri italic text-[#999] text-[20px] tracking-[0.5px] leading-[38px] mt-7">
+          <p class="font-amiri italic text-[#999] text-[20px] tracking-[1px] leading-[38px] mt-7">
             Vergangenheitsbewältigung:<br />
             Japanese Peace Education Tour
           </p>

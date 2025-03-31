@@ -63,7 +63,7 @@
           </div>
           <p class="font-shippori text-[#999] text-[30px] tracking-[10px] -mt-12">移動與邊界—</p>
           <p class="font-shippori text-[#999] text-[30px] tracking-[10px]">旅外台灣人</p>
-          <p class="font-amiri italic text-[#999] text-[20px] tracking-[0.5px] leading-[38px] mt-7">
+          <p class="font-amiri italic text-[#999] text-[20px] tracking-[1px] leading-[38px] mt-7">
             Movement and Boundaries: <br />
             Overseas Taiwanese
           </p>

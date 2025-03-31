@@ -63,7 +63,7 @@
           </div>
           <p class="font-shippori text-[#999] text-[30px] tracking-[10px] -mt-12">共犯結構—</p>
           <p class="font-shippori text-[#999] text-[30px] tracking-[10px]">戰爭機器</p>
-          <p class="font-amiri italic text-[#999] text-[20px] tracking-[0.5px] leading-[38px] mt-7">
+          <p class="font-amiri italic text-[#999] text-[20px] tracking-[1px] leading-[38px] mt-7">
             Structures of Complicity:<br />
             War Machine
           </p>
