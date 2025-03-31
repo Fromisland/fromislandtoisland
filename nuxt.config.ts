@@ -16,7 +16,7 @@ export default defineNuxtConfig({
         { property: 'og:description', content: '記憶像水一樣流動  我們可以選擇如何記憶' },
         {
           property: 'og:image',
-          content: 'https://fromisland.github.io/fromislandtoisland/ogimage.jpg',
+          content: 'https://fromislandtoisland.com/ogimage.jpg',
         },
         { property: 'og:image:width', content: '1200' },
         { property: 'og:image:height', content: '630' },
