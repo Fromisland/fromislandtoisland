@@ -72,7 +72,7 @@
           <div class="w-full sm:w-[651px] flex flex-col">
             <div class="flex flex-col border-b border-[#D0BC9C] py-12">
               <p class="font-noto text-[17px] tracking-[2px] text-[#D0BC9C] font-semibold">
-                片段大綱
+                影片介紹
               </p>
               <p
                 class="font-noto text-[14.5px] tracking-[0.5px] text-justify text-[#757575] mt-9 leading-[30px]"
@@ -114,14 +114,14 @@
               <p
                 class="font-noto text-[14.5px] tracking-[0.5px] text-justify text-[#757575] mt-9 leading-[30px]"
               >
-                如何理解台籍日本兵的戰爭經歷？戰爭集體暴力中如何討論與判斷個人的責任？<br />
-                後代需不需要承擔父祖輩的歷史責任？我們應如何面對家族的歷史？<br />
-                為什麼歷史記憶需要被討論？它如何影響我們的自我認同與社會和解？
+                台籍日本兵在戰爭中參與了哪些行動？如何理解他們的戰爭經歷與責任？<br />
+                如果發現家族曾參與爭議性的歷史事件，我們可以如何面對與回應？<br />
+                為什麼需要討論過去？歷史記憶如何影響身份認同與群體關係？
               </p>
             </div>
             <div class="flex flex-col border-b border-[#D0BC9C] py-12">
               <div class="font-noto text-[17px] tracking-[2px] text-[#D0BC9C] font-semibold">
-                活動流程<span class="text-[14.5px] tracking-[0.5px] text-[#757575] font-normal"
+                課堂流程<span class="text-[14.5px] tracking-[0.5px] text-[#757575] font-normal"
                   >（高中兩堂課·每堂50分鐘）</span
                 >
               </div>
@@ -286,7 +286,7 @@
               <p
                 class="font-noto text-[14.5px] tracking-[0.5px] text-justify text-[#757575] mt-9 leading-[30px]"
               >
-                現就讀臺灣藝術大學電影研究所，投入影像創作、影像教育與影展執行，曾於客家電視台新聞部攝影組、國家影視聽中心教育推廣組、台北電影節節目組等實習，曾任青少年影像教育講師、《電影ê鋩鋩角角》系列教學點子書等影像教案作者與臺灣國際人權影展聚落串聯執行等。擔任《由島至島》國藝會巡演計畫與教育推廣計畫總籌。
+                現就讀國立臺灣藝術大學電影研究所，投入影像創作、影像教育與影展執行，曾於客家電視台新聞部攝影組、國家影視聽中心教育推廣組、台北電影節節目組等實習，曾任青少年影像教育講師、《電影ê鋩鋩角角》系列教學點子書等影像教案作者與臺灣國際人權影展聚落串聯執行等。擔任《由島至島》國藝會巡演計畫與教育推廣計畫總籌。
               </p>
             </div>
             <div class="flex flex-col border-b border-[#D0BC9C] py-12">
@@ -307,7 +307,7 @@
               <p
                 class="font-noto text-[14.5px] tracking-[0.5px] text-justify text-[#757575] mt-9 leading-[30px]"
               >
-                心理學博士，目前任教於台中一中，擔任歷史科教師。學術取徑為文化研究與批判教育學，關注「東南亞社會與文化」、「原住民族轉型正義與認同」及「族群關係與當代性」等議題，近年積極組織教師專業社群，學習以轉化型知識份子的教育主體位置，思索「歷史記憶」生產與再生產與面相大眾的「公共史學」於基層歷史教學現場的可能性，推動跨系統的教育工作與民主對話作為行動研究的實踐之路。
+                心理學博士，目前任教於臺中一中，擔任歷史科教師。學術取徑為文化研究與批判教育學，關注「東南亞社會與文化」、「原住民族轉型正義與認同」及「族群關係與當代性」等議題，近年積極組織教師專業社群，學習以轉化型知識份子的教育主體位置，思索「歷史記憶」生產與再生產與面相大眾的「公共史學」於基層歷史教學現場的可能性，推動跨系統的教育工作與民主對話作為行動研究的實踐之路。
               </p>
             </div>
             <div class="flex flex-col py-8">

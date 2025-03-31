@@ -70,7 +70,7 @@
           <p
             class="font-noto font-semibold text-[#757575] text-[20px] tracking-[2px] sm:tracking-[4px]"
           >
-            由島至島教育推廣規劃
+            《由島至島》教育推廣計畫
           </p>
           <p class="font-noto text-[#757575] text-[13px] tracking-[1.5px] leading-[30px]">
             從《由島至島》中節選出 5 部主題短片發展搭配教案， 免費開放老師申請作為課程教授素材。

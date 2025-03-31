@@ -72,7 +72,7 @@
           <div class="w-full sm:w-[651px] flex flex-col">
             <div class="flex flex-col border-b border-[#D0BC9C] py-12">
               <p class="font-noto text-[17px] tracking-[2px] text-[#D0BC9C] font-semibold">
-                片段大綱
+                影片介紹
               </p>
               <p
                 class="font-noto text-[14.5px] tracking-[0.5px] text-justify text-[#757575] mt-9 leading-[30px]"
@@ -107,7 +107,7 @@
               <p
                 class="font-noto text-[14.5px] tracking-[0.5px] text-justify text-[#757575] mt-9 leading-[30px]"
               >
-                在了解旅外臺灣人遣送至澳洲集中營的困境後，藉由未來輪想像來模擬生命故事，讓學生同理「離開家鄉」的挑戰，對於紀錄片被攝者之經歷產生情感共鳴，進而反思如何於生活中透過個人行動支持離開家鄉的人們。
+                在了解旅外台灣人遣送至澳洲集中營的困境後，藉由未來輪想像來模擬生命故事，讓學生同理「離開家鄉」的挑戰，對於紀錄片被攝者之經歷產生情感共鳴，進而反思如何於生活中透過個人行動支持離開家鄉的人們。
               </p>
             </div>
             <div class="flex flex-col border-b border-[#D0BC9C] py-12">
@@ -118,12 +118,12 @@
                 class="font-noto text-[14.5px] tracking-[0.5px] text-justify text-[#757575] mt-9 leading-[30px]"
               >
                 二戰期間，旅居南洋的台灣人為何被迫離開家園？<br />
-                遭遣送至澳洲集中營的台灣籍民，在不同生活環境下精神層面與物質生活面臨哪些挑戰？
+                遭遣送至澳洲集中營的台灣籍民，在不同環境下精神層面與物質生活面臨哪些挑戰？
               </p>
             </div>
             <div class="flex flex-col border-b border-[#D0BC9C] py-12">
               <div class="font-noto text-[17px] tracking-[2px] text-[#D0BC9C] font-semibold">
-                活動流程<span class="text-[14.5px] tracking-[0.5px] text-[#757575] font-normal"
+                課堂流程<span class="text-[14.5px] tracking-[0.5px] text-[#757575] font-normal"
                   >（國中兩堂課·每堂45分鐘）</span
                 >
               </div>
@@ -250,7 +250,7 @@
               <p
                 class="font-noto text-[14.5px] tracking-[0.5px] text-justify text-[#757575] mt-9 leading-[30px]"
               >
-                出生於彰化的越南新二代，目前就讀於國立臺灣大學台灣文學研究所，大學畢業於臺大社會學系。文章曾多次獲得臺大文學獎，並曾獲選臺北電影節青少年評審團，撰寫影評並主責訪問影人。曾於課審會擔任國中組審查委員，並擔任國小及高中組跨組委員。目前研究領域為酷兒跨媒介再現。
+                出生於彰化的越南新二代，目前就讀於國立臺灣大學台灣文學研究所，大學畢業於臺大社會學系。文章曾多次獲得臺大文學獎，並曾獲選台北電影節青少年評審團，撰寫影評並主責訪問影人。曾於課審會擔任國中組審查委員，並擔任國小及高中組跨組委員。目前研究領域為酷兒跨媒介再現。
               </p>
             </div>
             <div class="flex flex-col border-b border-[#D0BC9C] py-12">
@@ -271,7 +271,7 @@
               <p
                 class="font-noto text-[14.5px] tracking-[0.5px] text-justify text-[#757575] mt-9 leading-[30px]"
               >
-                心理學博士，目前任教於台中一中，擔任歷史科教師。學術取徑為文化研究與批判教育學，關注「東南亞社會與文化」、「原住民族轉型正義與認同」及「族群關係與當代性」等議題，近年積極組織教師專業社群，學習以轉化型知識份子的教育主體位置，思索「歷史記憶」生產與再生產與面相大眾的「公共史學」於基層歷史教學現場的可能性，推動跨系統的教育工作與民主對話作為行動研究的實踐之路。
+                心理學博士，目前任教於臺中一中，擔任歷史科教師。學術取徑為文化研究與批判教育學，關注「東南亞社會與文化」、「原住民族轉型正義與認同」及「族群關係與當代性」等議題，近年積極組織教師專業社群，學習以轉化型知識份子的教育主體位置，思索「歷史記憶」生產與再生產與面相大眾的「公共史學」於基層歷史教學現場的可能性，推動跨系統的教育工作與民主對話作為行動研究的實踐之路。
               </p>
             </div>
             <div class="flex flex-col py-8">

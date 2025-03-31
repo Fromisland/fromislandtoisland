@@ -1,4 +1,3 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   ssr: false,
   app: {
@@ -17,12 +16,12 @@ export default defineNuxtConfig({
         { property: 'og:description', content: '記憶像水一樣流動  我們可以選擇如何記憶' },
         {
           property: 'og:image',
-          content: 'https://unikyolanda.github.io/From_Island_To_Island/ogimage.jpg',
+          content: 'https://fromisland.github.io/fromislandtoisland/ogimage.jpg',
         },
         { property: 'og:image:width', content: '1200' },
         { property: 'og:image:height', content: '630' },
         { property: 'og:type', content: 'website' },
-        // { property: 'og:url', content: 'https://yourwebsite.com' },
+        { property: 'og:url', content: 'https://fromislandtoisland.com' },
       ],
       link: [
         {
