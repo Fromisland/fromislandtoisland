@@ -695,27 +695,27 @@
         class="flex w-full sm:w-auto opacity-20 sm:mr-[112px] lessonTopic justify-center mt-12 sm:mt-0 mb-6 sm:mb-0 px-4 sm:px-0 overflow-x-auto"
       >
         <p
-          class="font-shippori text-white text-[30px] sm:text-[59px] tracking-[22px] sm:tracking-[36px] rotateText mr-4 sm:mr-7 whitespace-nowrap"
+          class="font-shippori text-white text-[30px] sm:text-[59px] tracking-[22px] sm:tracking-[36px] rotateText mr-4 sm:mr-7 whitespace-nowrap blur"
         >
           為什麼要記憶
         </p>
         <p
-          class="font-shippori text-white text-[30px] sm:text-[59px] tracking-[22px] sm:tracking-[36px] rotateText mr-4 sm:mr-7 mt-9 sm:mt-12 whitespace-nowrap"
+          class="font-shippori text-white text-[30px] sm:text-[59px] tracking-[22px] sm:tracking-[36px] rotateText mr-4 sm:mr-7 mt-9 sm:mt-12 whitespace-nowrap blur"
         >
           克服過去
         </p>
         <p
-          class="font-shippori text-white text-[30px] sm:text-[59px] tracking-[22px] sm:tracking-[36px] rotateText mr-4 sm:mr-7 whitespace-nowrap"
+          class="font-shippori text-white text-[30px] sm:text-[59px] tracking-[22px] sm:tracking-[36px] rotateText mr-4 sm:mr-7 whitespace-nowrap blur"
         >
           共犯結構
         </p>
         <p
-          class="font-shippori text-white text-[30px] sm:text-[59px] tracking-[22px] sm:tracking-[36px] rotateText mr-4 sm:mr-7 mt-9 sm:mt-12 whitespace-nowrap"
+          class="font-shippori text-white text-[30px] sm:text-[59px] tracking-[22px] sm:tracking-[36px] rotateText mr-4 sm:mr-7 mt-9 sm:mt-12 whitespace-nowrap blur"
         >
           加害與被害
         </p>
         <p
-          class="font-shippori text-white text-[30px] sm:text-[59px] tracking-[22px] sm:tracking-[36px] rotateText whitespace-nowrap"
+          class="font-shippori text-white text-[30px] sm:text-[59px] tracking-[22px] sm:tracking-[36px] rotateText whitespace-nowrap blur"
         >
           移動與邊界
         </p>
