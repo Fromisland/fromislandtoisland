@@ -33,6 +33,17 @@ export default defineNuxtConfig({
           type: 'image/png',
           href: './favicon.png',
         },
+        {
+          rel: 'preload',
+          as: 'image',
+          href: '/images-webp/first_photo5.webp',
+          fetchpriority: 'high',
+        },
+        {
+          rel: 'preload',
+          as: 'image',
+          href: '/images-webp/first_bg.webp',
+        },
       ],
     },
   },
