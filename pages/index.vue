@@ -113,7 +113,7 @@
         gsap.set(img, {
           opacity: 0,
           y: 5,
-          filter: 'blur(5px)',
+          filter: 'blur(3px)',
           zIndex: index + 1, // photo5 (index 0) gets z-index 1, photo1 (index 4) gets z-index 5
         })
       })
@@ -553,7 +553,7 @@
             <img
               src="/images-webp/first_photo5.webp"
               alt="photo5"
-              class="opacity-40 h-[437px] w-[514.12px] min-w-[514.12px] sm:h-[709px] sm:w-[834px] sm:min-w-[834px]"
+              class="opacity-40 h-[380px] w-[447px] min-w-[447px] sm:h-[709px] sm:w-[834px] sm:min-w-[834px]"
               fetchpriority="high"
               loading="eager"
               decoding="async"
@@ -561,7 +561,7 @@
             <img
               src="/images-webp/first_photo4.webp"
               alt="photo4"
-              class="opacity-40 h-[437px] w-[514.12px] min-w-[514.12px] sm:h-[709px] sm:w-[834px] sm:min-w-[834px] absolute top-0"
+              class="opacity-40 h-[380px] w-[447px] min-w-[447px] sm:h-[709px] sm:w-[834px] sm:min-w-[834px] absolute top-0"
               fetchpriority="high"
               loading="eager"
               decoding="async"
@@ -569,7 +569,7 @@
             <img
               src="/images-webp/first_photo3.webp"
               alt="photo3"
-              class="opacity-40 h-[437px] w-[514.12px] min-w-[514.12px] sm:h-[709px] sm:w-[834px] sm:min-w-[834px] absolute top-0"
+              class="opacity-40 h-[380px] w-[447px] min-w-[447px] sm:h-[709px] sm:w-[834px] sm:min-w-[834px] absolute top-0"
               fetchpriority="high"
               loading="eager"
               decoding="async"
@@ -577,7 +577,7 @@
             <img
               src="/images-webp/first_photo2.webp"
               alt="photo2"
-              class="opacity-40 h-[437px] w-[514.12px] min-w-[514.12px] sm:h-[709px] sm:w-[834px] sm:min-w-[834px] absolute top-0"
+              class="opacity-40 h-[380px] w-[447px] min-w-[447px] sm:h-[709px] sm:w-[834px] sm:min-w-[834px] absolute top-0"
               fetchpriority="high"
               loading="eager"
               decoding="async"
@@ -585,7 +585,7 @@
             <img
               src="/images-webp/first_photo1.webp"
               alt="photo1"
-              class="opacity-40 h-[437px] w-[514.12px] min-w-[514.12px] sm:h-[709px] sm:w-[834px] sm:min-w-[834px] absolute top-0"
+              class="opacity-40 h-[380px] w-[447px] min-w-[447px] sm:h-[709px] sm:w-[834px] sm:min-w-[834px] absolute top-0"
               fetchpriority="high"
               loading="eager"
               decoding="async"
