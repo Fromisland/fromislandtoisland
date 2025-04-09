@@ -7,8 +7,11 @@
   const checkImagesLoaded = () => {
     const images = [
       '/images-webp/first_bg.webp',
-      '/images-webp/third_bg.webp',
-      '/images-webp/fourth_bg.webp',
+      '/images-webp/first_photo5.webp',
+      '/images-webp/first_photo4.webp',
+      '/images-webp/first_photo3.webp',
+      '/images-webp/first_photo2.webp',
+      '/images-webp/first_photo1.webp',
     ]
 
     return Promise.all(
