@@ -47,12 +47,21 @@
   }
 
   onMounted(() => {
-    // Handle loading state
-    Promise.all([
-      checkImagesLoaded(),
-      new Promise(resolve => setTimeout(resolve, 3000)), // Minimum 3s loading time
-    ]).then(() => {
+    const maxWaitTime = 3000
+    const timeoutPromise = new Promise(resolve => setTimeout(() => resolve('timeout'), maxWaitTime))
+
+    checkImagesLoaded().then(() => {
       isLoading.value = false
+    })
+
+    // Handle loading state
+    Promise.race([checkImagesLoaded(), timeoutPromise]).then(result => {
+      if (result === 'timeout') {
+        console.log('Loading timed out, proceeding with the rest of the code.')
+        isLoading.value = false
+      } else {
+        console.log('Images loaded successfully.')
+      }
     })
 
     // 延遲載入 YouTube 組件
@@ -545,26 +554,41 @@
               src="/images-webp/first_photo5.webp"
               alt="photo5"
               class="opacity-40 h-[437px] w-[514.12px] min-w-[514.12px] sm:h-[709px] sm:w-[834px] sm:min-w-[834px]"
+              fetchpriority="high"
+              loading="eager"
+              decoding="async"
             />
             <img
               src="/images-webp/first_photo4.webp"
               alt="photo4"
               class="opacity-40 h-[437px] w-[514.12px] min-w-[514.12px] sm:h-[709px] sm:w-[834px] sm:min-w-[834px] absolute top-0"
+              fetchpriority="high"
+              loading="eager"
+              decoding="async"
             />
             <img
               src="/images-webp/first_photo3.webp"
               alt="photo3"
               class="opacity-40 h-[437px] w-[514.12px] min-w-[514.12px] sm:h-[709px] sm:w-[834px] sm:min-w-[834px] absolute top-0"
+              fetchpriority="high"
+              loading="eager"
+              decoding="async"
             />
             <img
               src="/images-webp/first_photo2.webp"
               alt="photo2"
               class="opacity-40 h-[437px] w-[514.12px] min-w-[514.12px] sm:h-[709px] sm:w-[834px] sm:min-w-[834px] absolute top-0"
+              fetchpriority="high"
+              loading="eager"
+              decoding="async"
             />
             <img
               src="/images-webp/first_photo1.webp"
               alt="photo1"
               class="opacity-40 h-[437px] w-[514.12px] min-w-[514.12px] sm:h-[709px] sm:w-[834px] sm:min-w-[834px] absolute top-0"
+              fetchpriority="high"
+              loading="eager"
+              decoding="async"
             />
           </div>
           <div
