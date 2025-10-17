@@ -260,93 +260,27 @@
         </NuxtLink>
       </div>
       <div
-        class="fade-box w-full sm:w-[1075px] h-auto flex flex-col items-center mt-14 border-b border-[#757575]/70"
+        class="fade-box w-full sm:w-[1075px] h-auto flex flex-col items-center mt-14"
       >
         <p class="font-shippori text-[#757575] text-[22px] sm:text-[28px] tracking-[4px]">
-          免費教材申請
+          免費教材下載
         </p>
         <p
           class="font-noto text-[14.5px] text-[#757575] tracking-[0.5px] leading-[30px] mt-10 text-start sm:text-center"
         >
-          開放教育工作者填寫此表單申請 ５ 部主題短片觀影連結與免費數位教材。
+          開放觀眾免費獲取 5 部主題短片觀影連結 與 數位教材。
           <span class="hidden sm:inline"><br /></span>
-          邀請老師為短片設計教案，完成教案撰稿、著作授權與成果回饋即可獲得《由島至島》個人收藏版
-          USB。
+          歡迎應用於校園教育推廣、地方藝文空間交流或團體討論分享。 
           <span class="hidden sm:inline"><br /></span>
-          更多《由島至島》教育推廣計畫資訊請見申請表單。
+          若學校欲播映完整紀錄片《由島至島》，請至官網「聯絡資訊」頁面中的「教育公播」專區參考選購。
         </p>
         <a
-          href="https://docs.google.com/forms/d/e/1FAIpQLScQxiV58k1T7PDf_2NiOaQOrz2sjgu5JQr9PD2jYEAIZef_dQ/viewform"
+          href="https://drive.google.com/drive/folders/153vc-Wp9jFxLQGFWTC4VMiNbfct8_Qxo?usp=drive_link"
           target="_blank"
           class="font-wix text-[#757575] px-10 py-3 bg-white border border-[#757575]/70 mt-10 mb-20 hover:bg-[#757575] hover:text-white"
         >
-          教案申請表單</a
+          點此下載教材</a
         >
-      </div>
-      <div
-        class="fade-box w-full sm:w-[1075px] h-auto flex flex-col items-center mt-14 mb-10 sm:mb-[160px]"
-      >
-        <p class="font-shippori text-[#757575] text-[22px] sm:text-[28px] tracking-[4px]">
-          成為夥伴與回饋機制
-        </p>
-        <div class="flex flex-col sm:flex-row gap-y-8 sm:gap-x-5 mt-8 sm:mt-14">
-          <div
-            class="fade-box bg-white w-full sm:w-[345px] h-auto sm:h-[280px] flex flex-col items-center p-9"
-          >
-            <p class="font-noto text-[20px] font-semibold tracking-[2px] text-[#d0bc9c]">
-              撰寫教案
-            </p>
-            <p
-              class="font-noto text-[14.5px] text-[#757575] tracking-[0.5px] leading-[30px] mt-7 text-justify"
-            >
-              歡迎為影片設計教案，成為教育推廣夥伴。如果將教案成果分享給《由島至島》教育推廣團隊與其他申請《由島至島》教育推廣計畫的老師，則可以獲得回饋品。
-            </p>
-          </div>
-          <div
-            class="fade-box bg-white w-full sm:w-[345px] h-auto sm:h-[280px] flex flex-col items-center p-9"
-          >
-            <p class="font-noto text-[20px] font-semibold tracking-[2px] text-[#d0bc9c]">
-              教案格式
-            </p>
-            <p
-              class="font-noto text-[14.5px] text-[#757575] tracking-[0.5px] leading-[30px] mt-7 text-justify"
-            >
-              老師需開發「兩堂課程」的教案：可以是連續兩堂或兩個單堂課程，教案需包含但不限於：教案名稱、議題概述、核心問題、設計理念、學習目標、課程關鍵字、課程步驟與提醒、延伸問題與討論等。
-            </p>
-          </div>
-          <div
-            class="fade-box bg-white w-full sm:w-[345px] h-auto sm:h-[280px] flex flex-col items-center p-9"
-          >
-            <p class="font-noto text-[20px] font-semibold tracking-[2px] text-[#d0bc9c]">
-              回饋機制
-            </p>
-            <p
-              class="font-noto text-[14.5px] text-[#757575] tracking-[0.5px] leading-[30px] mt-7 text-justify"
-            >
-              《由島至島》教育推廣團隊在收到「教案檔案、著作授權同意書與成果回饋表單」後，將贈與老師《由島至島》個人收藏USB，裝載4K畫質《由島至島》正片隨身碟，一份教案贈與一個。
-            </p>
-          </div>
-        </div>
-        <p
-          class="w-full sm:hidden block font-noto text-[14.5px] text-[#757575] tracking-[0.5px] leading-[30px] mt-10 text-justify"
-        >
-          數位教材將於收到申請表單後七個工作天以 e-mail 寄出，
-          教材當中包含影片、教案格式檔案與回饋問卷。<br />
-          <br />
-          欲成為夥伴的老師， 屆時完成填寫後回傳至 fromislandtoisland2024@gmail.com，<br />
-          確認後即可收到《由島至島》紀錄片USB， 詳情將於 e-mail 說明。
-        </p>
-        <p
-          class="hidden sm:block font-noto text-[14.5px] text-[#757575] tracking-[0.5px] leading-[30px] mt-10 text-center"
-        >
-          數位教材將於收到申請表單後七個工作天以 e-mail 寄出，<br />
-          教材當中包含影片、教案格式檔案與回饋問卷。<br />
-          <br />
-          欲成為夥伴的老師，<br />
-          屆時完成填寫後回傳至 fromislandtoisland2024@gmail.com，<br />
-          確認後即可收到《由島至島》紀錄片USB，<br />
-          詳情將於 e-mail 說明。
-        </p>
       </div>
     </div>
     <Footer bgColor="white" textColor="#757575" :opacity="80" />

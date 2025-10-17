@@ -1,7 +1,6 @@
 <script setup>
   import { ref } from 'vue'
 
-  const showPopup = ref(false)
   const isLoading = ref(true)
 
   const checkImagesLoaded = () => {
@@ -26,9 +25,6 @@
     )
   }
 
-  const togglePopup = () => {
-    showPopup.value = !showPopup.value
-  }
   const { $gsap: gsap, $ScrollTrigger: ScrollTrigger } = useNuxtApp()
 
   // 延遲載入 YouTube 相關資源
@@ -777,12 +773,6 @@
           class="font-shippori text-[18px] text-white/80 tracking-[10px] hover:text-white"
           >由島至島</a
         >
-        <p
-          @click="togglePopup"
-          class="font-shippori text-[18px] text-white/80 tracking-[10px] cursor-pointer hover:text-white"
-        >
-          最新場次
-        </p>
       </div>
       <div class="flex flex-col-reverse items-center sm:flex-row gap-x-[30px]">
         <a
@@ -796,26 +786,6 @@
           Copyright © HUMMINGBIRD Production
         </p>
       </div>
-    </div>
-  </div>
-  <!-- Popup -->
-  <div
-    v-if="showPopup"
-    class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50"
-    @click="togglePopup"
-  >
-    <div class="relative max-w-[90%] max-h-[90vh]">
-      <img
-        src="https://res.cloudinary.com/daznz2uvo/image/upload/v1740982012/3%E6%9C%88%E7%AC%AC%E4%B8%80%E6%B3%A2%E5%9C%96%E6%96%87_epboly.png"
-        alt="最新場次"
-        class="max-w-full max-h-[90vh] object-contain"
-      />
-      <button
-        @click.stop="togglePopup"
-        class="absolute top-4 right-4 text-white bg-black bg-opacity-50 rounded-full w-8 h-8 flex items-center justify-center hover:bg-opacity-70"
-      >
-        ✕
-      </button>
     </div>
   </div>
 </template>

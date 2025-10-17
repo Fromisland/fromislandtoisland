@@ -50,34 +50,15 @@
           <div
             class="w-full py-5 px-4 sm:px-6 bg-white text-[#999] text-[14.5px] font-noto tracking-[0.5px] leading-[30px] text-justify"
           >
-            自 3 月起，我們將安排全台院線映演，每月更新放映場次，詳細資訊請參見
-            <p
-              @click="togglePopup"
+          正式電影院上映已告一段落，如有未來有任何公開放映消息，將於
+            <a
               class="inline-block font-semibold text-[#d0bc9c] hover:opacity-80 cursor-pointer"
-              :style="{ color: textColor }"
+              href="https://www.facebook.com/fromislandtoisland"
+              target="_blank"
             >
-              最新場次
-            </p>
-            。目前已成功舉辦超過十場滿座放映，期待您持續關注並支持！
-          </div>
-        </div>
-        <div class="w-full sm:w-[676px] flex flex-col">
-          <div
-            class="w-full h-auto py-2 flex items-center px-3 sm:px-6 bg-[#d0bc9c] text-white text-[15px] sm:text-[17px] font-noto font-semibold tracking-[2px]"
-          >
-            Q: 如果想包場，有什麼條件呢？
-          </div>
-          <div
-            class="w-full py-5 px-4 sm:px-6 bg-white text-[#999] text-[14.5px] font-noto tracking-[0.5px] leading-[30px] text-justify"
-          >
-            若您有意包場，請填寫
-            <NuxtLink
-              href="/booking"
-              class="inline-block font-semibold text-[#d0bc9c] hover:opacity-80 cursor-pointer"
-            >
-              包場申請表單
-            </NuxtLink>
-            ，我們的包場專員將儘快與您聯繫並提供更多詳情。
+              由島至島 Facebook 粉絲專頁
+            </a>
+              宣布，歡迎追蹤按讚。
           </div>
         </div>
         <div class="w-full sm:w-[676px] flex flex-col">
@@ -94,7 +75,7 @@
               href="/educational"
               class="inline-block font-semibold text-[#d0bc9c] hover:opacity-80 cursor-pointer"
               >教育公播版購買資訊</NuxtLink
-            >。如有興趣將本片應用於教學現場，請參考我們提供的<NuxtLink
+            >。如有興趣將本片應用於教學現場，請參考我們提供的 <NuxtLink
               href="/lesson"
               class="inline-block font-semibold text-[#d0bc9c] hover:opacity-80 cursor-pointer"
               >教育推廣計畫</NuxtLink
@@ -110,8 +91,11 @@
           <div
             class="w-full py-5 px-4 sm:px-6 bg-white text-[#999] text-[14.5px] font-noto tracking-[0.5px] leading-[30px]"
           >
-            我們預計於 6 月起推出《由島至島》個人收藏版
-            USB，敬請期待並支持！更多資訊將在即將公布的預購資訊中提供。歡迎追蹤我們的粉絲專頁，得到最新消息。
+            由島至島個人收藏版 USB 已經上市，台灣地區欲購買請填寫
+            <a href="https://forms.gle/qGV7da6gXPUdfS2w6" target="_blank" class="inline-block font-semibold text-[#d0bc9c] hover:opacity-80 cursor-pointer">購買表單</a>
+            ，離島或國外購買請來
+            <a href="mailto:fromislandtoisland2024@gmail.com" class="inline-block font-semibold text-[#d0bc9c] hover:opacity-80 cursor-pointer">信</a>
+            ，將為您個別服務。
           </div>
         </div>
         <div class="w-full sm:w-[676px] flex flex-col">
@@ -123,11 +107,13 @@
           <div
             class="w-full py-5 px-4 sm:px-6 bg-white text-[#999] text-[14.5px] font-noto tracking-[0.5px] leading-[30px]"
           >
-            您可以透過以下方式支持我們：<br /><br />
-            走入電影院觀影，並幫忙推薦給親朋好友，持續關注我們的院線映演消息。<br />
-            若您有意收藏電影 USB，請來信或私訊我們，我們將第一時間提供預購訊息。<br />
+            可以收藏電影USB、或線上付費觀影。<br />
             若您有相關經驗或故事，並希望分享與「由島至島」的連結，歡迎來信或私訊我們。<br /><br />
-            再次感謝所有支持《由島至島》的觀眾
+            追蹤按讚
+            <a href="https://www.facebook.com/fromislandtoisland" target="_blank" class="inline-block font-semibold text-[#d0bc9c] hover:opacity-80 cursor-pointer">由島至島 FB 粉絲專頁</a>
+            、
+            <a href="https://www.facebook.com/hummingbirdproductiontaiwan" target="_blank" class="inline-block font-semibold text-[#d0bc9c] hover:opacity-80 cursor-pointer">蜂鳥影像 FB 粉絲專頁</a>
+            ，獲得最新作品訊息。
           </div>
         </div>
       </div>
@@ -147,25 +133,4 @@
     </div>
   </div>
   <Footer bgColor="white" textColor="#757575" :opacity="80" />
-
-  <!-- Popup -->
-  <div
-    v-if="showPopup"
-    class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50"
-    @click="togglePopup"
-  >
-    <div class="relative max-w-[90%] max-h-[90vh]">
-      <img
-        src="https://res.cloudinary.com/daznz2uvo/image/upload/v1740982012/3%E6%9C%88%E7%AC%AC%E4%B8%80%E6%B3%A2%E5%9C%96%E6%96%87_epboly.png"
-        alt="最新場次"
-        class="max-w-full max-h-[90vh] object-contain"
-      />
-      <button
-        @click.stop="togglePopup"
-        class="absolute top-4 right-4 text-white bg-black bg-opacity-50 rounded-full w-8 h-8 flex items-center justify-center hover:bg-opacity-70"
-      >
-        ✕
-      </button>
-    </div>
-  </div>
 </template>

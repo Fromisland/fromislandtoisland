@@ -41,11 +41,11 @@
             Comfort Women
           </p>
           <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLScQxiV58k1T7PDf_2NiOaQOrz2sjgu5JQr9PD2jYEAIZef_dQ/viewform"
+            href="https://drive.google.com/drive/folders/153vc-Wp9jFxLQGFWTC4VMiNbfct8_Qxo?usp=drive_link"
             target="_blank"
             class="font-wix w-[162px] text-[#999] flex justify-center py-3 bg-white border border-[#999]/70 mt-10 hover:bg-[#999] hover:text-white"
           >
-            教案申請表單</a
+            教案下載連結</a
           >
         </div>
       </div>
@@ -70,6 +70,17 @@
         </div>
         <div class="w-full h-auto bg-white/50 flex justify-center py-6 px-10">
           <div class="w-full sm:w-[651px] flex flex-col">
+            <div class="mt-6 w-full">
+              <iframe 
+                src="https://player.vimeo.com/video/1050013858" 
+                width="100%" 
+                height="200" 
+                class="h-[200px] sm:h-[400px]"
+                frameborder="0" 
+                allow="autoplay; fullscreen; picture-in-picture" 
+                allowfullscreen>
+              </iframe>
+            </div>
             <div class="flex flex-col border-b border-[#D0BC9C] py-12">
               <p class="font-noto text-[17px] tracking-[2px] text-[#D0BC9C] font-semibold">
                 影片介紹
@@ -313,18 +324,18 @@
               <p
                 class="font-noto text-[14.5px] tracking-[0.5px] text-justify text-[#757575] mt-6 leading-[30px]"
               >
-                欲申請短片與教案，歡迎填寫《由島至島》申請表單。本教案提供自：台灣。
+                本教案提供來自：台灣。
               </p>
               <div class="flex flex-col items-center sm:items-start py-8">
                 <a
-                  href="https://docs.google.com/forms/d/e/1FAIpQLScQxiV58k1T7PDf_2NiOaQOrz2sjgu5JQr9PD2jYEAIZef_dQ/viewform"
+                  href="https://drive.google.com/drive/folders/153vc-Wp9jFxLQGFWTC4VMiNbfct8_Qxo?usp=drive_link"
                   target="_blank"
                   class="font-wix w-[162px] text-[#999] flex sm:hidden justify-center py-3 bg-white border border-[#999]/70 hover:bg-[#999] hover:text-white"
                 >
-                  教案申請表單</a
+                  教案下載連結</a
                 >
                 <a
-                  href="https://www.canva.com/design/DAGhUFrqqjk/R9SJqF5_8kEXWm_RYUqnCg/view?utm_content=DAGhUFrqqjk&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h3f9dcd5c88"
+                  href="https://drive.google.com/file/d/1Z56hqcVwGV8zJHTKeWXhf32RezY66JVA/view?usp=drive_link"
                   target="_blank"
                   class="font-wix w-[162px] text-[#999] flex justify-center py-3 bg-white border border-[#999]/70 mt-6 mb-20 hover:bg-[#999] hover:text-white"
                 >
