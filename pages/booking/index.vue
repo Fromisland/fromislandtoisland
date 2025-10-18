@@ -325,7 +325,7 @@
             :disabled="isSubmitting"
             class="font-wix w-[162px] text-[#757575] flex justify-center py-3 bg-white border border-[#757575]/70 hover:bg-[#757575] hover:text-white mt-12"
           >
-            {{ isSubmitting ? '提交中...' : '包場申請' }}
+            {{ isSubmitting ? '提交中...' : '確認訂購' }}
           </button>
         </div>
         <div

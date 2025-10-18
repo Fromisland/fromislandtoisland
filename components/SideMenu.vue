@@ -98,7 +98,7 @@
             <NuxtLink
               to="/booking"
               class="font-noto text-[15px] sm:text-[17px] tracking-[3px] hover:opacity-50"
-              >包場資訊</NuxtLink
+              >個人收藏</NuxtLink
             >
             <NuxtLink
               to="/contact"
