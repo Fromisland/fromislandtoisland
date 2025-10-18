@@ -52,7 +52,7 @@
       <div class="flex flex-col">
         <img
           src="/images-webp/stills/lesson_3.webp"
-          lass="w-full sm:w-[895px] h-[312px] sm:h-[532px] object-cover"
+          class="w-full sm:w-[895px] h-[312px] sm:h-[532px] object-cover"
         />
         <div class="flex sm:hidden flex-col mb-12 ml-10 h-fit">
           <div class="flex items-center">
@@ -70,17 +70,6 @@
         </div>
         <div class="w-full h-auto bg-white/50 flex justify-center py-6 px-10">
           <div class="w-full sm:w-[651px] flex flex-col">
-            <div class="mt-6 w-full">
-              <iframe 
-                src="https://player.vimeo.com/video/1050017024" 
-                width="100%" 
-                height="200" 
-                class="h-[200px] sm:h-[400px]"
-                frameborder="0" 
-                allow="autoplay; fullscreen; picture-in-picture" 
-                allowfullscreen>
-              </iframe>
-            </div>
             <div class="flex flex-col border-b border-[#D0BC9C] py-12">
               <p class="font-noto text-[17px] tracking-[2px] text-[#D0BC9C] font-semibold">
                 影片介紹
@@ -94,6 +83,17 @@
                 <br />
                 ＊馬來青年同盟：Kesatuan Melayu Muda（KMM），又譯「馬來青年協會」。
               </p>
+              <div class="mt-6 w-full">
+              <iframe 
+                src="https://player.vimeo.com/video/1050017024" 
+                width="100%" 
+                height="200" 
+                class="h-[200px] sm:h-[400px]"
+                frameborder="0" 
+                allow="autoplay; fullscreen; picture-in-picture" 
+                allowfullscreen>
+              </iframe>
+            </div>
             </div>
             <div class="flex flex-col border-b border-[#D0BC9C] py-12">
               <p class="font-noto text-[17px] tracking-[2px] text-[#D0BC9C] font-semibold">

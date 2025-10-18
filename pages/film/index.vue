@@ -546,6 +546,20 @@
               class="max-w-[100%] h-[100%] object-cover object-center"
             />
           </div>
+          <div class="w-full flex justify-end mb-10 gap-x-4">
+            <a
+              href="https://www.ptsplus.tv/zh/programs/4e04d1ab-6464-4fca-bb65-c28dc51c4aee"
+              target="_blank"
+              class="font-noto text-white tracking-[2px] mt-10 border border-white px-6 py-2 hover:bg-white hover:text-[#aaa] transition-all duration-500"
+              >公視＋</a
+            >
+            <a
+              href="https://giloo.ist/zh-TW/episodes/2417/"
+              target="_blank"
+              class="font-noto text-white tracking-[2px] mt-10 border border-white px-6 py-2 hover:bg-white hover:text-[#aaa] transition-all duration-500"
+              >Giloo</a
+            >
+          </div>
           <p class="font-noto text-white tracking-[2px] leading-[36px] mt-[191px] w-[710px]">
             馬來西亞出生的台灣導演，從事紀錄片與劇情片創作。2019
             年首部劇情長片《菠蘿蜜》入圍釜山影展新潮流競賽單元與金馬獎最佳新導演。創作持續反映真實世界，兩部拍攝家鄉的紀錄片《不即不離》與《還有一些樹》觸及馬共與離散歷史，至今仍遭馬來西亞政府禁演。曾參與金馬電影學院、東京與柏林影展新銳營；也常擔任

@@ -70,17 +70,6 @@
         </div>
         <div class="w-full h-auto bg-white/50 flex justify-center py-6 px-10">
           <div class="w-full sm:w-[651px] flex flex-col">
-            <div class="mt-6 w-full">
-              <iframe 
-                src="https://player.vimeo.com/video/1050013858" 
-                width="100%" 
-                height="200" 
-                class="h-[200px] sm:h-[400px]"
-                frameborder="0" 
-                allow="autoplay; fullscreen; picture-in-picture" 
-                allowfullscreen>
-              </iframe>
-            </div>
             <div class="flex flex-col border-b border-[#D0BC9C] py-12">
               <p class="font-noto text-[17px] tracking-[2px] text-[#D0BC9C] font-semibold">
                 影片介紹
@@ -92,6 +81,17 @@
                 <br /><br />
                 慰安婦不僅是日軍暴行下的受害者，更深陷於戰時軍需產業鏈，成為日本與在地資本家共構的剝削體制的一環。多年後，她們的經歷仍未能獲得國家與社會的正視，歷史記憶的重建與遲來的傷痛修復依舊困難重重。
               </p>
+              <div class="mt-6 w-full">
+              <iframe 
+                src="https://player.vimeo.com/video/1050013858" 
+                width="100%" 
+                height="200" 
+                class="h-[200px] sm:h-[400px]"
+                frameborder="0" 
+                allow="autoplay; fullscreen; picture-in-picture" 
+                allowfullscreen>
+              </iframe>
+            </div>
             </div>
             <div class="flex flex-col border-b border-[#D0BC9C] py-12">
               <p class="font-noto text-[17px] tracking-[2px] text-[#D0BC9C] font-semibold">

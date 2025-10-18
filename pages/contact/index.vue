@@ -9,12 +9,6 @@
   }
 
   import { ref } from 'vue'
-
-  const showPopup = ref(false)
-
-  const togglePopup = () => {
-    showPopup.value = !showPopup.value
-  }
 </script>
 <template>
   <div class="flex flex-col bg-[#f6f6f6] w-screen h-auto min-h-screen items-center">
@@ -26,11 +20,11 @@
     <div class="flex flex-col w-full z-10 items-center opacity-80">
       <div class="flex flex-col items-center w-full mt-12 sm:mt-[233px]">
         <p
-          class="font-amiri italic text-[#999] tracking-[1px] sm:tracking-[2px] text-[20px] sm:text-[28px]"
+          class="font-amiri italic text-[#757575] tracking-[1px] sm:tracking-[2px] text-[20px] sm:text-[28px]"
         >
           Contact Us
         </p>
-        <p class="font-shippori text-[#999] text-[30px] sm:text-[44px] tracking-[8px]">聯絡我們</p>
+        <p class="font-shippori text-[#757575] text-[30px] sm:text-[44px] tracking-[8px]">聯絡我們</p>
       </div>
       <img
         src="/images/stills/still_16.png"
@@ -38,7 +32,7 @@
         class="w-full sm:w-[676px] h-auto sm:h-[389px] mt-12"
       />
       <div class="flex flex-col px-10 py-9 items-center gap-y-8">
-        <p class="font-shippori text-[#999] text-[22px] sm:text-[28px] tracking-[4px] text-center">
+        <p class="font-shippori text-[#757575] text-[22px] sm:text-[28px] tracking-[4px] text-center">
           《由島至島》<span class="sm:hidden"><br /></span>常見問答
         </p>
         <div class="w-full sm:w-[676px] flex flex-col">
@@ -48,7 +42,7 @@
             Q: 是否還有電影院放映場次？
           </div>
           <div
-            class="w-full py-5 px-4 sm:px-6 bg-white text-[#999] text-[14.5px] font-noto tracking-[0.5px] leading-[30px] text-justify"
+            class="w-full py-5 px-4 sm:px-6 bg-white text-[#757575] text-[14.5px] font-noto tracking-[0.5px] leading-[30px] text-justify"
           >
           正式電影院上映已告一段落，如有未來有任何公開放映消息，將於
             <a
@@ -68,7 +62,7 @@
             Q: 我是老師，可否邀請到校放映與演講？
           </div>
           <div
-            class="w-full py-5 px-4 sm:px-6 bg-white text-[#999] text-[14.5px] font-noto tracking-[0.5px] leading-[30px] text-justify"
+            class="w-full py-5 px-4 sm:px-6 bg-white text-[#757575] text-[14.5px] font-noto tracking-[0.5px] leading-[30px] text-justify"
           >
             若您希望在校園內舉行放映活動，請參閱
             <NuxtLink
@@ -89,7 +83,7 @@
             Q: 如果想收藏電影，會發售嗎？
           </div>
           <div
-            class="w-full py-5 px-4 sm:px-6 bg-white text-[#999] text-[14.5px] font-noto tracking-[0.5px] leading-[30px]"
+            class="w-full py-5 px-4 sm:px-6 bg-white text-[#757575] text-[14.5px] font-noto tracking-[0.5px] leading-[30px]"
           >
             由島至島個人收藏版 USB 已經上市，台灣地區欲購買請填寫
             <a href="https://forms.gle/qGV7da6gXPUdfS2w6" target="_blank" class="inline-block font-semibold text-[#d0bc9c] hover:opacity-80 cursor-pointer">購買表單</a>
@@ -105,7 +99,7 @@
             Q: 如果想支持導演或蜂鳥影像，可以怎麼做呢？
           </div>
           <div
-            class="w-full py-5 px-4 sm:px-6 bg-white text-[#999] text-[14.5px] font-noto tracking-[0.5px] leading-[30px]"
+            class="w-full py-5 px-4 sm:px-6 bg-white text-[#757575] text-[14.5px] font-noto tracking-[0.5px] leading-[30px]"
           >
             可以收藏電影USB、或線上付費觀影。<br />
             若您有相關經驗或故事，並希望分享與「由島至島」的連結，歡迎來信或私訊我們。<br /><br />

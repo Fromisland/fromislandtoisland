@@ -30,11 +30,11 @@
     <div class="flex flex-col w-full z-10 items-center opacity-80">
       <div class="flex flex-col items-center w-full mt-12 sm:mt-[233px]">
         <p
-          class="font-amiri italic text-[#999] tracking-[1px] sm:tracking-[2px] text-[20px] sm:text-[28px]"
+          class="font-amiri italic text-[#757575] tracking-[1px] sm:tracking-[2px] text-[20px] sm:text-[28px]"
         >
           Educational Presentation Edition
         </p>
-        <p class="font-shippori text-[#999] text-[30px] sm:text-[44px] tracking-[8px]">教育公播</p>
+        <p class="font-shippori text-[#757575] text-[30px] sm:text-[44px] tracking-[8px]">教育公播</p>
       </div>
       <div class="flex flex-col mt-12 mb-20 gap-y-11 items-center">
         <div
@@ -54,13 +54,13 @@
           </div>
           <div class="flex flex-col px-10 sm:py-9 sm:pl-[60px] mt-8 sm:mt-64 items-center">
             <p
-              class="font-shippori text-[#999] text-[22px] sm:text-[28px] tracking-[4px] text-center"
+              class="font-shippori text-[#757575] text-[22px] sm:text-[28px] tracking-[4px] text-center"
             >
               《由島至島》<br />
               教育公播版說明
             </p>
             <p
-              class="font-noto text-[14.5px] text-[#999] tracking-[0.5px] leading-[30px] mt-10 text-center"
+              class="font-noto text-[14.5px] text-[#757575] tracking-[0.5px] leading-[30px] mt-10 text-center"
             >
               教育公播放映費為 15000 元，
               <span class="sm:hidden"><br /></span>
@@ -78,7 +78,7 @@
               For overseas purchases,<span class="sm:hidden"><br /></span> please contact us.
             </p>
             <div
-              class="font-noto text-[14.5px] text-[#999] tracking-[0.5px] leading-[30px] mt-10 text-center"
+              class="font-noto text-[14.5px] text-[#757575] tracking-[0.5px] leading-[30px] mt-10 text-center"
             >
               <span class="font-semibold">收件者：</span
               ><span class="sm:hidden"><br /></span> fromislandtoisland2024@gmail.com<br />
@@ -86,7 +86,7 @@
               ><span class="sm:hidden"><br /></span> 【教育公播】由島至島_單位名稱_縣市
             </div>
             <p
-              class="font-noto text-[14.5px] text-[#999] tracking-[0.5px] leading-[30px] mt-10 text-center"
+              class="font-noto text-[14.5px] text-[#757575] tracking-[0.5px] leading-[30px] mt-10 text-center"
             >
               信件內容請包涵：<span class="sm:hidden"><br /></span>   1. 單位簡介
               <span class="sm:hidden"><br /></span> 2. 預計播映的時間<span class="sm:hidden"
@@ -105,7 +105,7 @@
               USB 規格說明
             </p>
             <div
-              class="w-full sm:w-[737px] font-noto text-[14.5px] text-[#999] tracking-[0.5px] leading-[30px] mt-10 sm:mb-[68px] flex flex-col"
+              class="w-full sm:w-[737px] font-noto text-[14.5px] text-[#757575] tracking-[0.5px] leading-[30px] mt-10 sm:mb-[68px] flex flex-col"
             >
               <div class="flex">
                 <span class="shrink-0">·</span>
@@ -184,7 +184,7 @@
           </div>
         </div>
         <div class="w-full px-10 sm:w-[1075px] h-auto flex flex-col items-center sm:mt-14 mb-16">
-          <p class="font-shippori text-[#999] text-[22px] sm:text-[28px] tracking-[4px]">
+          <p class="font-shippori text-[#757575] text-[22px] sm:text-[28px] tracking-[4px]">
             保固說明
           </p>
           <div class="flex flex-col sm:flex-row gap-5 mt-14">
@@ -195,7 +195,7 @@
                 七天內
               </p>
               <p
-                class="font-noto text-[14.5px] text-[#999] tracking-[0.5px] leading-[30px] mt-7 text-justify"
+                class="font-noto text-[14.5px] text-[#757575] tracking-[0.5px] leading-[30px] mt-7 text-justify"
               >
                 若七天內晶片讀取有問題且非人為因素，將免費進行換貨。預購產品不予退貨退款，僅可進行換貨。運費部分：廠商負擔來回運費（只限台灣本島地區）。
               </p>
@@ -207,7 +207,7 @@
                 一年內
               </p>
               <p
-                class="font-noto text-[14.5px] text-[#999] tracking-[0.5px] leading-[30px] mt-7 text-justify"
+                class="font-noto text-[14.5px] text-[#757575] tracking-[0.5px] leading-[30px] mt-7 text-justify"
               >
                 出貨一年內針對晶片本身非人為因素損壞保固，進行維修換貨處理，外觀損傷則不在保固範圍之中。運費部分：請客戶端自付寄回廠之運費，廠商負擔維修後回件貨運費（只限台灣本島地區）。
               </p>
@@ -219,14 +219,14 @@
                 超過一年
               </p>
               <p
-                class="font-noto text-[14.5px] text-[#999] tracking-[0.5px] leading-[30px] mt-7 text-justify"
+                class="font-noto text-[14.5px] text-[#757575] tracking-[0.5px] leading-[30px] mt-7 text-justify"
               >
                 如衍生維修費、材料費、雷雕、印刷、運費等，依當下狀況另行報價，再由客戶決定是否維修寄回。運費部分：請客戶端自付寄回廠之運費，若不維修但需寄回，仍需支付廠商回件貨運費。
               </p>
             </div>
           </div>
           <p
-            class="font-noto text-[14.5px] text-[#999] tracking-[0.5px] leading-[30px] mt-10 text-center"
+            class="font-noto text-[14.5px] text-[#757575] tracking-[0.5px] leading-[30px] mt-10 text-center"
           >
             製作單位：蜂鳥影像 & 三穩國際 <br />
             客服專線：02-7722-1799<br />
