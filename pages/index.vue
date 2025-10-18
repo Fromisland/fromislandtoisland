@@ -146,7 +146,6 @@
         scrub: true,
         onUpdate: self => {
           const progress = self.progress
-          const totalElements = textElements.length
 
           textElements.forEach((text, index) => {
             const delay = index * 0.6 // Original order when scrolling down
@@ -366,129 +365,41 @@
     mask-image: linear-gradient(to top, rgba(0, 0, 0, 1) 100%, rgba(0, 0, 0, 0) 100%);
     -webkit-mask-image: linear-gradient(to top, rgba(0, 0, 0, 1) 100%, rgba(0, 0, 0, 0) 100%);
   }
-  /* :not(:required) hides this rule from IE9 and below */
-  .inner-circles-loader:not(:required) {
-    -moz-transform: translate3d(0, 0, 0);
-    -ms-transform: translate3d(0, 0, 0);
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-    position: relative;
-    display: inline-block;
-    width: 150px;
-    height: 150px;
-    background: rgba(63, 107, 139, 0.5);
-    border-radius: 50%;
-    overflow: hidden;
-    text-indent: -9999px;
-    opacity: 0.9;
-    /* Hides inner circles outside base circle at safari */
-    -webkit-mask-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
+  .ocean-bg {
+    background-image: url('/images-webp/ocean.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
-  .inner-circles-loader:not(:required):before,
-  .inner-circles-loader:not(:required):after {
-    content: '';
-    position: absolute;
-    top: 0;
-    display: inline-block;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
+  .ocean-loader {
+    background-image: url('/images-webp/title.webp');
+    width: 276px;
+    height: 160px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: ocean-loader 5s infinite ease-in-out;
   }
-  .inner-circles-loader:not(:required):before {
-    -moz-animation: inner-circles-loader 3s infinite;
-    -webkit-animation: inner-circles-loader 3s infinite;
-    animation: inner-circles-loader 3s infinite;
-    -moz-transform-origin: 0 50%;
-    -ms-transform-origin: 0 50%;
-    -webkit-transform-origin: 0 50%;
-    transform-origin: 0 50%;
-    left: 0;
-    background: #032535;
-    opacity: 0.9;
-  }
-  .inner-circles-loader:not(:required):after {
-    -moz-animation: inner-circles-loader 3s 0.2s reverse infinite;
-    -webkit-animation: inner-circles-loader 3s 0.2s reverse infinite;
-    animation: inner-circles-loader 3s 0.2s reverse infinite;
-    -moz-transform-origin: 100% 50%;
-    -ms-transform-origin: 100% 50%;
-    -webkit-transform-origin: 100% 50%;
-    transform-origin: 100% 50%;
-    right: 0;
-    background: #ffffff;
-    opacity: 0.9;
-  }
-
-  @-moz-keyframes inner-circles-loader {
+  @keyframes ocean-loader {
     0% {
-      -moz-transform: rotate(0deg);
-      transform: rotate(0deg);
-    }
-    50% {
-      -moz-transform: rotate(360deg);
-      transform: rotate(360deg);
-    }
-    100% {
-      -moz-transform: rotate(0deg);
-      transform: rotate(0deg);
-    }
-  }
-  @-webkit-keyframes inner-circles-loader {
-    0% {
-      -webkit-transform: rotate(0deg);
-      transform: rotate(0deg);
-    }
-    50% {
-      -webkit-transform: rotate(360deg);
-      transform: rotate(360deg);
-    }
-    100% {
-      -webkit-transform: rotate(0deg);
-      transform: rotate(0deg);
-    }
-  }
-  @keyframes inner-circles-loader {
-    0% {
-      -moz-transform: rotate(0deg);
-      -ms-transform: rotate(0deg);
-      -webkit-transform: rotate(0deg);
-      transform: rotate(0deg);
-    }
-    50% {
-      -moz-transform: rotate(360deg);
-      -ms-transform: rotate(360deg);
-      -webkit-transform: rotate(360deg);
-      transform: rotate(360deg);
-    }
-    100% {
-      -moz-transform: rotate(0deg);
-      -ms-transform: rotate(0deg);
-      -webkit-transform: rotate(0deg);
-      transform: rotate(0deg);
-    }
-  }
-  @-moz-keyframes pong-loader {
-    0% {
-      left: 5px;
-      top: 0;
+      transform: translateY(-3px);
+      opacity: 0.4;
     }
     25% {
-      left: 65px;
-      top: 20px;
+      transform: translateY(5px);
+      opacity: 0.6;
     }
     50% {
-      left: 5px;
-    }
-    62.5% {
-      top: 50px;
+      transform: translateY(0);
+      opacity: 0.5;
     }
     75% {
-      left: 65px;
-      top: 70%;
+      transform: translateY(2px);
+      opacity: 0.7;
     }
     100% {
-      left: 5px;
-      top: 0%;
+      transform: translateY(-3px);
+      opacity: 0.4;
     }
   }
 </style>
@@ -497,9 +408,9 @@
   <Transition name="fade">
     <div
       v-show="isLoading"
-      class="fixed inset-0 bg-[#032535] z-30 flex items-center justify-center"
+      class="fixed inset-0 z-30 flex items-center justify-center ocean-bg"
     >
-      <div class="inner-circles-loader"></div>
+      <div class="ocean-loader"></div>
     </div>
   </Transition>
   <div class="relative overflow-x-hidden h-[270vh] w-full">
