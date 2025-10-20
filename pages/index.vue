@@ -43,21 +43,20 @@
   }
 
   onMounted(() => {
+    const minDuration = 2000
     const maxWaitTime = 3000
-    const timeoutPromise = new Promise(resolve => setTimeout(() => resolve('timeout'), maxWaitTime))
+    const imagesPromise = checkImagesLoaded()
+    const minTimer = new Promise(resolve => setTimeout(resolve, minDuration))
+    const maxTimer = new Promise(resolve => setTimeout(() => resolve('timeout'), maxWaitTime))
 
-    checkImagesLoaded().then(() => {
-      isLoading.value = false
-    })
-
-    // Handle loading state
-    Promise.race([checkImagesLoaded(), timeoutPromise]).then(result => {
+    // Ensure loader stays for at least minDuration, but not more than maxWaitTime
+    Promise.race([Promise.all([imagesPromise, minTimer]), maxTimer]).then(result => {
       if (result === 'timeout') {
         console.log('Loading timed out, proceeding with the rest of the code.')
-        isLoading.value = false
       } else {
-        console.log('Images loaded successfully.')
+        console.log('Images loaded and minimum duration elapsed.')
       }
+      isLoading.value = false
     })
 
     // 延遲載入 YouTube 組件
@@ -372,34 +371,60 @@
     background-repeat: no-repeat;
   }
   .ocean-loader {
-    background-image: url('/images-webp/title.webp');
-    width: 276px;
-    height: 160px;
+    background-image: url('/images-webp/logo.webp');
+    width: 80px;
+    height: 120px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    animation: ocean-loader 5s infinite ease-in-out;
+    animation: ocean-loader 2s infinite ease-in-out;
+  }
+  .loader-text {
+    display: inline-flex;
+    align-items: flex-end;
+    overflow: hidden;
+  }
+  .loader-letter {
+    display: inline-block;
+    transform: translateY(16px);
+    opacity: 0;
+    animation: riseIn 0.6s ease forwards;
+    animation-delay: calc(var(--i) * 80ms);
+  }
+  .loader-space {
+    display: inline-block;
+    width: 10px;
+  }
+  @keyframes riseIn {
+    0% {
+      transform: translateY(16px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 0.9;
+    }
   }
   @keyframes ocean-loader {
     0% {
-      transform: translateY(-3px);
+      transform: translateY(0);
       opacity: 0.4;
     }
     25% {
-      transform: translateY(5px);
-      opacity: 0.6;
-    }
-    50% {
-      transform: translateY(0);
+      transform: translateY(-5px);
       opacity: 0.5;
     }
+    50% {
+      transform: translateY(-7px);
+      opacity: 0.6;
+    }
     75% {
-      transform: translateY(2px);
+      transform: translateY(-4px);
       opacity: 0.7;
     }
     100% {
-      transform: translateY(-3px);
-      opacity: 0.4;
+      transform: translateY(0);
+      opacity: 0.7;
     }
   }
 </style>
@@ -410,7 +435,32 @@
       v-show="isLoading"
       class="fixed inset-0 z-30 flex items-center justify-center ocean-bg"
     >
-      <div class="ocean-loader"></div>
+      <div class="flex flex-col items-center">
+        <div class="ocean-loader"></div>
+        <div class="loader-text mt-6 font-amiri italic text-white text-[18px] tracking-[1px] opacity-60">
+          <span class="loader-letter" style="--i:0">F</span>
+          <span class="loader-letter" style="--i:1">r</span>
+          <span class="loader-letter" style="--i:2">o</span>
+          <span class="loader-letter" style="--i:3">m</span>
+          <span class="loader-space"></span>
+          <span class="loader-letter" style="--i:4">I</span>
+          <span class="loader-letter" style="--i:5">s</span>
+          <span class="loader-letter" style="--i:6">l</span>
+          <span class="loader-letter" style="--i:7">a</span>
+          <span class="loader-letter" style="--i:8">n</span>
+          <span class="loader-letter" style="--i:9">d</span>
+          <span class="loader-space"></span>
+          <span class="loader-letter" style="--i:10">t</span>
+          <span class="loader-letter" style="--i:11">o</span>
+          <span class="loader-space"></span>
+          <span class="loader-letter" style="--i:12">I</span>
+          <span class="loader-letter" style="--i:13">s</span>
+          <span class="loader-letter" style="--i:14">l</span>
+          <span class="loader-letter" style="--i:15">a</span>
+          <span class="loader-letter" style="--i:16">n</span>
+          <span class="loader-letter" style="--i:17">d</span>
+        </div>
+      </div>
     </div>
   </Transition>
   <div class="relative overflow-x-hidden h-[270vh] w-full">
