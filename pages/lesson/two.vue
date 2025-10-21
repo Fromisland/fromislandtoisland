@@ -41,11 +41,18 @@
             Yeow Chew Bok
           </p>
           <a
-            href="https://drive.google.com/drive/folders/153vc-Wp9jFxLQGFWTC4VMiNbfct8_Qxo?usp=drive_link"
+            href="https://drive.google.com/file/d/1MWjVx_b1OAyOQW8n0oPtqsDOa0F989eA/view"
             target="_blank"
-            class="font-wix w-[162px] text-[#999] flex justify-center py-3 bg-white border border-[#999]/70 mt-10 hover:bg-[#999] hover:text-white"
+            class="font-wix w-[162px] text-[#999] flex justify-center py-3 bg-white border border-[#999]/70 mt-2 hover:bg-[#999] hover:text-white"
           >
-            教案下載連結</a
+            台灣教案下載</a
+          >
+          <a
+            href="https://drive.google.com/file/d/1CTX4W7Njxac-NRoEigL6utPHsw0i7UA6/view"
+            target="_blank"
+            class="font-wix w-[162px] text-[#999] flex justify-center py-3 bg-white border border-[#999]/70 mt-2 hover:bg-[#999] hover:text-white"
+          >
+            馬來西亞教案下載</a
           >
         </div>
       </div>
@@ -329,21 +336,28 @@
               </p>
               <div class="flex flex-col sm:flex-row items-center sm:items-start py-8 gap-x-4">
                 <a
-                  href="https://drive.google.com/drive/folders/153vc-Wp9jFxLQGFWTC4VMiNbfct8_Qxo?usp=drive_link"
+                  href="https://drive.google.com/file/d/1MWjVx_b1OAyOQW8n0oPtqsDOa0F989eA/view"
                   target="_blank"
                   class="font-wix w-[162px] text-[#999] flex sm:hidden justify-center py-3 bg-white border border-[#999]/70 hover:bg-[#999] hover:text-white"
                 >
-                  教案下載連結</a
+                  台灣教案下載</a
                 >
                 <a
-                  href="https://drive.google.com/file/d/1MWjVx_b1OAyOQW8n0oPtqsDOa0F989eA/view?usp=drive_link"
+                  href="https://drive.google.com/file/d/1CTX4W7Njxac-NRoEigL6utPHsw0i7UA6/view"
+                  target="_blank"
+                  class="font-wix w-[162px] text-[#999] flex sm:hidden justify-center py-3 bg-white border border-[#999]/70 mt-6 hover:bg-[#999] hover:text-white"
+                >
+                  馬來西亞教案下載</a
+                >
+                <a
+                  href="https://www.canva.com/design/DAGhT50LL8A/HEuanGxGJSRYacgVoLDJQA/view?utm_content=DAGhT50LL8A&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h61bc89a809"
                   target="_blank"
                   class="font-wix w-[162px] text-[#999] flex justify-center py-3 bg-white border border-[#999]/70 mt-6 sm:mb-20 hover:bg-[#999] hover:text-white"
                 >
                   台灣教案預覽</a
                 >
                 <a
-                  href="https://drive.google.com/file/d/1CTX4W7Njxac-NRoEigL6utPHsw0i7UA6/view?usp=drive_link"
+                  href="https://www.canva.com/design/DAGhT2jpkPA/Dv2ZNiUEPF8rkfy4RZiQ3g/view?utm_content=DAGhT2jpkPA&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h5ca1dc2870"
                   target="_blank"
                   class="font-wix w-[162px] text-[#999] flex justify-center py-3 bg-white border border-[#999]/70 mt-6 mb-20 hover:bg-[#999] hover:text-white"
                 >

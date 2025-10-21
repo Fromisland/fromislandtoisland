@@ -4,7 +4,7 @@
     ref="menuRef"
   >
     <div class="absolute top-12 right-10">
-      <div class="cursor-pointer w-8 sm:w-10" @click="$emit('close')">
+      <div class="cursor-pointer w-8 sm:w-10" @click="emit('close')">
         <img src="/public/images/xmark.svg" />
       </div>
     </div>
@@ -115,6 +115,9 @@
 <script setup>
   const menuRef = ref(null)
   const { $gsap: gsap } = useNuxtApp()
+  
+  // 點選外部區域關閉選單
+  const emit = defineEmits(['close'])
 
   const show = () => {
     gsap.to(menuRef.value, {
@@ -122,6 +125,10 @@
       duration: 0.5,
       ease: 'power2.out',
     })
+    // 確保動畫完成後才開始監聽點選外部區域
+    setTimeout(() => {
+      document.addEventListener('click', handleOutsideClick)
+    }, 500)
   }
 
   const hide = () => {
@@ -130,7 +137,20 @@
       duration: 0.5,
       ease: 'power2.in',
     })
+    document.removeEventListener('click', handleOutsideClick)
   }
+
+  const handleOutsideClick = (event) => {
+    // 檢查點擊的目標是否在選單外部
+    if (menuRef.value && !menuRef.value.contains(event.target)) {
+      emit('close')
+    }
+  }
+
+  // 清理事件監聽
+  onUnmounted(() => {
+    document.removeEventListener('click', handleOutsideClick)
+  })
 
   defineExpose({ show, hide })
 </script>

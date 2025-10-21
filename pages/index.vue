@@ -712,7 +712,7 @@
         <p
           class="font-noto text-white tracking-[1px] sm:tracking-[2px] w-full sm:w-[440px] leading-[36px] text-[14px] sm:text-[16px] text-justify"
         >
-          《由島至島》教育推廣規劃，從本片中節選出５個主題的片段，發展搭配教案，免費開放老師申請作為課程教授素材。五大主題為：移動與邊界、加害與被害、共犯結構－日本擴張行動、克服過去、為什麼要記憶，各有台灣、日本及馬來西亞教案可下載。
+          金馬獎最佳紀錄片《由島至島》電影介紹與教案網站。教案五大主題：移動與邊界、加害與被害、共犯結構、克服過去、為什麼要記憶。教案短片免費觀看，歡迎教師使用。
         </p>
         <NuxtLink
           to="/lesson"
@@ -727,12 +727,24 @@
     class="w-full h-[190px] sm:h-[146px] bg-black -mt-[100px] flex sm:px-20 items-center justify-center z-10"
   >
     <div class="max-w-[1440px] w-full flex flex-col sm:flex-row items-center justify-between">
-      <div class="flex gap-x-16 sm:gap-x-[77px]">
+      <div class="flex gap-x-6 sm:gap-x-[24px]">
         <a
           href="https://www.facebook.com/fromislandtoisland"
           target="_blank"
           class="font-shippori text-[18px] text-white/80 tracking-[10px] hover:text-white"
           >由島至島</a
+        >
+        <a
+          href="https://www.ptsplus.tv/zh/programs/4e04d1ab-6464-4fca-bb65-c28dc51c4aee"
+          target="_blank"
+          class="font-shippori text-[18px] text-white/80 tracking-[10px] hover:text-white"
+          >公視＋</a
+        >
+        <a
+          href="https://giloo.ist/zh-TW/episodes/2417/"
+          target="_blank"
+          class="font-shippori text-[18px] text-white/80 tracking-[10px] hover:text-white"
+          >Giloo</a
         >
       </div>
       <div class="flex flex-col-reverse items-center sm:flex-row gap-x-[30px]">

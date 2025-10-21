@@ -41,11 +41,11 @@
             Japanese Peace Education Tour
           </p>
           <a
-            href="https://drive.google.com/drive/folders/153vc-Wp9jFxLQGFWTC4VMiNbfct8_Qxo?usp=drive_link"
+            href="https://drive.google.com/file/d/1Iq4eYuUUCCf3I0DbqsAdrCr68E3TzbLw/view"
             target="_blank"
             class="font-wix w-[162px] text-[#999] flex justify-center py-3 bg-white border border-[#999]/70 mt-10 hover:bg-[#999] hover:text-white"
           >
-            教案下載連結</a
+            台灣教案下載</a
           >
         </div>
       </div>
@@ -316,14 +316,14 @@
               </p>
               <div class="flex flex-col items-center sm:items-start py-8">
                 <a
-                  href="https://drive.google.com/drive/folders/153vc-Wp9jFxLQGFWTC4VMiNbfct8_Qxo?usp=drive_link"
+                  href="https://drive.google.com/file/d/1Iq4eYuUUCCf3I0DbqsAdrCr68E3TzbLw/view"
                   target="_blank"
                   class="font-wix w-[162px] text-[#999] flex sm:hidden justify-center py-3 bg-white border border-[#999]/70 hover:bg-[#999] hover:text-white"
                 >
-                  教案下載連結</a
+                  台灣教案下載</a
                 >
                 <a
-                  href="https://drive.google.com/file/d/1Iq4eYuUUCCf3I0DbqsAdrCr68E3TzbLw/view?usp=drive_link"
+                  href="https://www.canva.com/design/DAGhUD9cqkg/m4USosdU-BAiq9TlHIUwMg/view?utm_content=DAGhUD9cqkg&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h6e722e3d7e"
                   target="_blank"
                   class="font-wix w-[162px] text-[#999] flex justify-center py-3 bg-white border border-[#999]/70 mt-6 mb-20 hover:bg-[#999] hover:text-white"
                 >

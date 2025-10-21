@@ -27,6 +27,14 @@
   const isSubmitting = ref(false)
   const submitStatus = ref('')
 
+  const openDatePicker = () => {
+    // 觸發日期輸入框的點擊事件
+    const dateInput = document.querySelector('input[type="date"]')
+    if (dateInput) {
+      dateInput.showPicker()
+    }
+  }
+
   async function submitForm() {
     // if (
     //   !formData.name ||
@@ -56,7 +64,7 @@
       
       const { year, month, day } = parseDate(formData.payment_date)
       
-      const formUrl = `https://docs.google.com/forms/d/e/1FAIpQLSfI8QjhkgVyOMRjche4Qy1eyrZRVO5XkQG9fCPcLVMnIVRC8Q/viewform?usp=pp_url&emailAddress=${encodeURIComponent(formData.email)}&entry.506578022=${encodeURIComponent(formData.name)}&entry.1876921518=${encodeURIComponent(formData.phone)}&entry.6343927=${encodeURIComponent(formData.delivery)}&entry.413057570=${encodeURIComponent(formData.address)}&entry.440336493=${encodeURIComponent(formData.receiver_name)}&entry.958192304=${encodeURIComponent(formData.receiver_phone)}&entry.1618430672=${encodeURIComponent(formData.quantity)}&entry.1661916275=${encodeURIComponent(formData.total_amount)}&entry.1558590140=${encodeURIComponent(formData.account_last_five_digits)}&entry.252083826=${encodeURIComponent(formData.invoice_info)}&entry.121805833_year=${encodeURIComponent(year)}&entry.121805833_month=${encodeURIComponent(month)}&entry.121805833_day=${encodeURIComponent(day)}&entry.1102680287=${encodeURIComponent(formData.check_again === 'true' ? '確認' : '否')}`
+      const formUrl = `https://docs.google.com/forms/d/e/1FAIpQLSfI8QjhkgVyOMRjche4Qy1eyrZRVO5XkQG9fCPcLVMnIVRC8Q/viewform?usp=pp_url&entry.503651108=${encodeURIComponent(formData.email)}&entry.506578022=${encodeURIComponent(formData.name)}&entry.1876921518=${encodeURIComponent(formData.phone)}&entry.6343927=${encodeURIComponent(formData.delivery)}&entry.413057570=${encodeURIComponent(formData.address)}&entry.440336493=${encodeURIComponent(formData.receiver_name)}&entry.958192304=${encodeURIComponent(formData.receiver_phone)}&entry.1618430672=${encodeURIComponent(formData.quantity)}&entry.1661916275=${encodeURIComponent(formData.total_amount)}&entry.1558590140=${encodeURIComponent(formData.account_last_five_digits)}&entry.252083826=${encodeURIComponent(formData.invoice_info)}&entry.121805833_year=${encodeURIComponent(year)}&entry.121805833_month=${encodeURIComponent(month)}&entry.121805833_day=${encodeURIComponent(day)}&entry.1102680287=${encodeURIComponent(formData.check_again === true ? '是' : '否')}`
 
       // 在新窗口中打開預填好的表單
       window.open(formUrl, '_blank')
@@ -288,6 +296,7 @@
             class="px-3 py-2 focus:outline-none focus:ring-2 focus:ring-[#D0BC9C]"
             type="date"
             required
+            @click="openDatePicker"
           />
         </div>
         <div class="flex flex-col w-full gap-y-4">
