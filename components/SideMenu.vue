@@ -3,7 +3,7 @@
     class="fixed top-0 right-0 h-full w-full sm:w-[710px] bg-black/90 transform translate-x-full z-30 flex flex-col justify-center"
     ref="menuRef"
   >
-    <div class="absolute top-12 right-10">
+    <div class="absolute top-8 sm:top-12 right-10">
       <div class="cursor-pointer w-8 sm:w-10" @click="emit('close')">
         <img src="/public/images/xmark.svg" />
       </div>
