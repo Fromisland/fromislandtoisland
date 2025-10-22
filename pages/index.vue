@@ -465,10 +465,16 @@
   </Transition>
   <div class="relative overflow-x-hidden h-[270vh] w-full">
     <SideMenu ref="menuRef" @close="closeMenu" />
-    <div class="fixed right-10 sm:right-12 top-6 sm:top-10 cursor-pointer z-20">
+    <div 
+      class="fixed right-10 sm:right-12 top-6 sm:top-10 cursor-pointer z-20 transition-opacity duration-300"
+      :class="{ 'opacity-0': isLoading, 'opacity-100': !isLoading }"
+    >
       <img src="/images/menu.svg" alt="menu" class="w-8 sm:w-10 h-8" @click="toggleMenu" />
     </div>
-    <div class="ripple-effect absolute flex flex-col items-center w-full h-full overflow-x-hidden">
+    <div 
+      class="ripple-effect absolute flex flex-col items-center w-full h-full overflow-x-hidden transition-opacity duration-300"
+      :class="{ 'opacity-0': isLoading, 'opacity-100': !isLoading }"
+    >
       <div class="title w-full min-h-screen relative flex items-center">
         <div class="sm:hidden absolute left-10 z-10 top-[55px]">
           <img src="/images-webp/title.webp" alt="title" class="w-[140px] h-[81px]" />
