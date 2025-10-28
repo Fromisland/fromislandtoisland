@@ -86,7 +86,7 @@
             class="w-full py-5 px-4 sm:px-6 bg-white text-[#757575] text-[14.5px] font-noto tracking-[0.5px] leading-[30px]"
           >
             由島至島個人收藏版 USB 已經上市，台灣地區欲購買請填寫
-            <a href="https://forms.gle/qGV7da6gXPUdfS2w6" target="_blank" class="inline-block font-semibold text-[#d0bc9c] hover:opacity-80 cursor-pointer">購買表單</a>
+            <NuxtLink href="/booking" class="inline-block font-semibold text-[#d0bc9c] hover:opacity-80 cursor-pointer">購買表單</NuxtLink>
             ，離島或國外購買請來
             <a href="mailto:fromislandtoisland2024@gmail.com" class="inline-block font-semibold text-[#d0bc9c] hover:opacity-80 cursor-pointer">信</a>
             ，將為您個別服務。
