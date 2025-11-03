@@ -84,7 +84,7 @@
                 <br /><br />
                 ＊台灣籍民：隸屬台灣殖民地籍的日本國民，尤指旅居中國及東南亞等地的台灣人。
               </p>
-              <div class="mt-6 w-full flex flex-col items-center">
+              <div class="mt-6 w-full flex flex-col items-center sm:items-start">
                 <iframe 
                   src="https://player.vimeo.com/video/1050011668" 
                   width="100%" 
@@ -97,7 +97,7 @@
                 <a
                   href="https://vimeo.com/1112615843"
                   target="_blank"
-                  class="font-wix w-[162px] text-[#999] flex justify-center py-3 bg-white border border-[#999]/70 mt-10 hover:bg-[#999] hover:text-white"
+                  class="font-wix w-[162px] text-[#999] flex justify-center py-3 bg-white border border-[#999]/70 mt-10 sm:mt-8 hover:bg-[#999] hover:text-white"
                 >
                   日本語字幕版</a
                 >

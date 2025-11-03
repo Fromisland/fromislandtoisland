@@ -81,7 +81,7 @@
                 <br /><br />
                 來自日本的高嶋伸欣先生前往東南亞尋找戰時日本屠殺人民的地點進行調查，並年年籌組日本和平教育團，踏訪受難地點、清掃蒙難者的墳墓，帶著年輕世代與屠殺倖存者面對面對話，多年來重複地拜訪與聆聽。戰時受日本動員前往南洋戰場的台灣人在圍捕和拷問中扮演了關鍵角色。暴行過後，人們如何聆聽加害者、受難者和見證者的沈默，並面對與克服過去？
               </p>
-              <div class="mt-6 w-full flex flex-col items-center">
+              <div class="mt-6 w-full flex flex-col items-center sm:items-start">
                 <iframe 
                   src="https://player.vimeo.com/video/1050018151" 
                   width="100%" 
@@ -94,7 +94,7 @@
                 <a
                   href="https://vimeo.com/1112615113"
                   target="_blank"
-                  class="font-wix w-[162px] text-[#999] flex justify-center py-3 bg-white border border-[#999]/70 mt-10 hover:bg-[#999] hover:text-white"
+                  class="font-wix w-[162px] text-[#999] flex justify-center py-3 bg-white border border-[#999]/70 mt-10 sm:mt-8 hover:bg-[#999] hover:text-white"
                 >
                   日本語字幕版</a
                 >

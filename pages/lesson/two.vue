@@ -88,7 +88,7 @@
                 <br />
                 楊炳煒先生作為第三代戰爭遺族和第三代海外台灣人，其祖父楊樹木卻成了家族中的禁忌。後來，楊炳煒先生在曾發生屠殺事件的鍾靈中學任教，隨著史料和審判記錄的逐步揭示，開啟他對於這段歷史記憶的追尋與探究。
               </p>
-              <div class="mt-6 w-full flex flex-col items-center">
+              <div class="mt-6 w-full flex flex-col items-center sm:items-start">
                 <iframe 
                   src="https://player.vimeo.com/video/1050014824" 
                   width="100%" 
@@ -101,7 +101,7 @@
                 <a
                   href="https://vimeo.com/1112616292"
                   target="_blank"
-                  class="font-wix w-[162px] text-[#999] flex justify-center py-3 bg-white border border-[#999]/70 mt-10 hover:bg-[#999] hover:text-white"
+                  class="font-wix w-[162px] text-[#999] flex justify-center py-3 bg-white border border-[#999]/70 mt-10 sm:mt-8 hover:bg-[#999] hover:text-white"
                 >
                   日本語字幕版</a
                 >

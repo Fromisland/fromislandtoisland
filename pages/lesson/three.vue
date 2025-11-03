@@ -83,7 +83,7 @@
                 <br />
                 ＊馬來青年同盟：Kesatuan Melayu Muda（KMM），又譯「馬來青年協會」。
               </p>
-              <div class="mt-6 w-full flex flex-col items-center">
+              <div class="mt-6 w-full flex flex-col items-center sm:items-start">
                 <iframe 
                   src="https://player.vimeo.com/video/1050017024" 
                   width="100%" 
@@ -96,7 +96,7 @@
                 <a
                   href="https://vimeo.com/1112616758"
                   target="_blank"
-                  class="font-wix w-[162px] text-[#999] flex justify-center py-3 bg-white border border-[#999]/70 mt-10 hover:bg-[#999] hover:text-white"
+                  class="font-wix w-[162px] text-[#999] flex justify-center py-3 bg-white border border-[#999]/70 mt-10 sm:mt-8 hover:bg-[#999] hover:text-white"
                 >
                   日本語字幕版</a
                 >

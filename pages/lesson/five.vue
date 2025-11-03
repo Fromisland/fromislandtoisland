@@ -81,7 +81,7 @@
                 <br /><br />
                 慰安婦不僅是日軍暴行下的受害者，更深陷於戰時軍需產業鏈，成為日本與在地資本家共構的剝削體制的一環。多年後，她們的經歷仍未能獲得國家與社會的正視，歷史記憶的重建與遲來的傷痛修復依舊困難重重。
               </p>
-              <div class="mt-6 w-full flex flex-col items-center">
+              <div class="mt-6 w-full flex flex-col items-center sm:items-start">
                 <iframe 
                   src="https://player.vimeo.com/video/1050013858" 
                   width="100%" 
@@ -92,9 +92,9 @@
                   allowfullscreen>
                 </iframe>
                 <a
-                  href="https://vimeo.com/1112615113"
+                  href="https://vimeo.com/1112617723"
                   target="_blank"
-                  class="font-wix w-[162px] text-[#999] flex justify-center py-3 bg-white border border-[#999]/70 mt-10 hover:bg-[#999] hover:text-white"
+                  class="font-wix w-[162px] text-[#999] flex justify-center py-3 bg-white border border-[#999]/70 mt-10 sm:mt-8 hover:bg-[#999] hover:text-white"
                 >
                   日本語字幕版</a
                 >
