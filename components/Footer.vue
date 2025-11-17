@@ -43,17 +43,9 @@
           由島至島
         </a>
         <a
-          href="https://www.ptsplus.tv/zh/programs/4e04d1ab-6464-4fca-bb65-c28dc51c4aee"
-          target="_blank"
-          class="font-shippori text-[18px] tracking-[10px] opacity-80 hover:opacity-100 transition-opacity duration-300"
-          :style="{ color: textColor }"
-        >
-          公視＋
-        </a>
-        <a
           href="https://giloo.ist/zh-TW/episodes/2417/"
           target="_blank"
-          class="font-shippori text-[18px] tracking-[10px] opacity-80 hover:opacity-100 transition-opacity duration-300"
+          class="font-amiri italic text-[18px] tracking-[10px] opacity-80 hover:opacity-100 transition-opacity duration-300"
           :style="{ color: textColor }"
         >
           Giloo

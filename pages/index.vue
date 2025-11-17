@@ -741,15 +741,9 @@
           >由島至島</a
         >
         <a
-          href="https://www.ptsplus.tv/zh/programs/4e04d1ab-6464-4fca-bb65-c28dc51c4aee"
-          target="_blank"
-          class="font-shippori text-[18px] text-white/80 tracking-[10px] hover:text-white"
-          >公視＋</a
-        >
-        <a
           href="https://giloo.ist/zh-TW/episodes/2417/"
           target="_blank"
-          class="font-shippori text-[18px] text-white/80 tracking-[10px] hover:text-white"
+          class="font-amiri italic text-[18px] text-white/80 tracking-[10px] hover:text-white"
           >Giloo</a
         >
       </div>
