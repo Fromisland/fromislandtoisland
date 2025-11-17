@@ -743,8 +743,8 @@
         <a
           href="https://giloo.ist/zh-TW/episodes/2417/"
           target="_blank"
-          class="font-amiri italic text-[18px] text-white/80 tracking-[10px] hover:text-white"
-          >Giloo</a
+          class="font-amiri italic text-[18px] text-white/80 tracking-[2px] hover:text-white"
+          >watch online</a
         >
       </div>
       <div class="flex flex-col-reverse items-center sm:flex-row gap-x-[30px]">

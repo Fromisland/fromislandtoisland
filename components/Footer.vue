@@ -45,10 +45,10 @@
         <a
           href="https://giloo.ist/zh-TW/episodes/2417/"
           target="_blank"
-          class="font-amiri italic text-[18px] tracking-[10px] opacity-80 hover:opacity-100 transition-opacity duration-300"
+          class="font-amiri italic text-[18px] tracking-[2px] opacity-80 hover:opacity-100 transition-opacity duration-300"
           :style="{ color: textColor }"
         >
-          Giloo
+          watch online
         </a>
       </div>
       <div class="flex flex-col-reverse items-center sm:flex-row gap-x-[30px]">
